@@ -1,0 +1,807 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-PkbtxdWDpLChpxtWQ0KbvJoef4XMYPq5pfd/ZmylYZTzXYpCfGwN9d+bsSKcmOJLwTkfjFkfj5wz3poDrhJoSQ==" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-f6e6ce21346c0d2eb22def1e8534afcb.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-XiPiEdaRO+K7+Dt5NlEkDnTWKY8GSgW4wfgvr7YV6lZiHHpjOoAnKtuK3G4y8mRnxQ4ieaEWw6ZDa2UMQHLyxQ==" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-6aa762e23e9f19a4f9dd2eec1573d451.css" />
+  
+  
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GLTF-Free/scene.gltf at master · flemos/GLTF-Free</title>
+    <meta name="description" content="GitHub is where people build software. More than 28 million people use GitHub to discover, fork, and contribute to over 85 million projects.">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/5634087?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="flemos/GLTF-Free" /><meta property="og:url" content="https://github.com/flemos/GLTF-Free" /><meta property="og:description" content="GLTF-Free - 3D Models" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6Mjc5ODI0Mzg3OjVmNTE0N2M2ODBjYTlmOWUwOTIyMWY4ZjVmMGI0NTlmZTI2M2QyMWNjZmYxNGQwNTE2ODhlM2JjYWMwYTQ0Mzk=--8c3e955831514358be82d07c7d81af3fcb2f8db0">
+  <meta name="pjax-timeout" content="1000">
+  <link rel="sudo-modal" href="/sessions/sudo_modal">
+  <meta name="request-id" content="CFCC:780C:66355D8:BF226DA:5B1C47D0" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="CFCC:780C:66355D8:BF226DA:5B1C47D0" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="34427212" /><meta name="octolytics-actor-login" content="philippevandal" /><meta name="octolytics-actor-hash" content="2834a93ca00a9536c8786166798cecd2a4cc5d7c948c5b1dbb79007aeabe4bf0" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="philippevandal">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="MGZjMWMyM2Y5YzZlNzM4YWIyYmZiM2YwZWMxMmJlZDRjY2ZiYjNlYzJjODI0ODdkNGZlZThmZTI3NWI1NGZmYXx7InJlbW90ZV9hZGRyZXNzIjoiNjkuMTY1LjE5Ny43NSIsInJlcXVlc3RfaWQiOiJDRkNDOjc4MEM6NjYzNTVEODpCRjIyNkRBOjVCMUM0N0QwIiwidGltZXN0YW1wIjoxNTI4NTgwMDQ4LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="439fbce2e054a924dd7b5d852d393509e09cf46c">
+
+  <meta http-equiv="x-pjax-version" content="8b6ccf2fb8fe60e9e375f7236dedc16a">
+  
+
+      <link href="https://github.com/flemos/GLTF-Free/commits/master.atom" rel="alternate" title="Recent Commits to GLTF-Free:master" type="application/atom+xml">
+
+  <meta name="description" content="GLTF-Free - 3D Models">
+  <meta name="go-import" content="github.com/flemos/GLTF-Free git https://github.com/flemos/GLTF-Free.git">
+
+  <meta name="octolytics-dimension-user_id" content="5634087" /><meta name="octolytics-dimension-user_login" content="flemos" /><meta name="octolytics-dimension-repository_id" content="102994349" /><meta name="octolytics-dimension-repository_nwo" content="flemos/GLTF-Free" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="102994349" /><meta name="octolytics-dimension-repository_network_root_nwo" content="flemos/GLTF-Free" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/flemos/GLTF-Free/blob/master/open/machine/scene.gltf" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <meta name="u2f-support" content="true">
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-in env-production emoji-size-boost page-blob">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="p-3 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        
+<header class="Header  f5" role="banner">
+  <div class="d-flex flex-justify-between px-3 container-lg">
+    <div class="d-flex flex-justify-between ">
+      <div class="">
+        <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+
+      </div>
+
+    </div>
+
+    <div class="HeaderMenu d-flex flex-justify-between flex-auto">
+      <div class="d-flex">
+            <div class="">
+              <div class="header-search scoped-search site-scoped-search js-site-search position-relative" role="search">
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="102994349" data-scoped-search-url="/flemos/GLTF-Free/search" data-unscoped-search-url="/search" action="/flemos/GLTF-Free/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search or jump to…"
+          aria-label="Search this repository"
+          data-unscoped-placeholder="Search or jump to…"
+          data-scoped-placeholder="Search or jump to…"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=vJFZIn16a+s9hOD81lGi4O0bdc5tI8/9PxckvxpmvGjniutpA5XD6rfiOAR+Znd4FxJ32Osweb7pDu2kyvAY5w=="
+          spellcheck="false"
+          autocomplete="off"
+          autocapitalize="off"
+          >
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://assets-cdn.github.com/images/search-shortcut-hint.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              <ul class="d-none js-jump-to-suggestions-template-container">
+                <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item">
+                  <a class="no-underline d-flex flex-auto flex-items-center p-2 jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open" aria-label="Jump to..." href="">
+                    <div class="jump-to-octicon js-jump-to-octicon mr-2 text-center d-none"></div>
+                    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar" alt="" src="" width="28" height="28">
+                    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden no-wrap css-truncate css-truncate-target">
+                    </div>
+
+                    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-search">
+                      In this repository
+                      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+                    </div>
+
+                    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+                      Jump to
+                      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+                    </div>
+                  </a>
+                </li>
+                <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-repo-octicon-template" title="Repository" viewBox="0 0 12 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+                <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-project-octicon-template" title="Project" viewBox="0 0 15 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+                <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-search-octicon-template" title="Search" viewBox="0 0 16 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+              </ul>
+              <ul class="d-none js-jump-to-no-results-template-container">
+                <li class="d-flex flex-justify-center flex-items-center p-3 f5 d-none">
+                  <span class="text-gray">No suggested jump to results</span>
+                </li> 
+              </ul>
+
+              <ul class="js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+                <li class="d-flex flex-justify-center flex-items-center p-0 f5">
+                  <img src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" alt="Octocat Spinner Icon" class="m-2" width="28">
+                </li>
+              </ul>
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+            </div>
+
+          <ul class="d-flex pl-2 flex-items-center text-bold list-style-none" role="navigation">
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-hotkey="g p" data-ga-click="Header, click, Nav menu - item:pulls context:user" aria-label="Pull requests you created" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls" href="/pulls">
+                Pull requests
+</a>            </li>
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-hotkey="g i" data-ga-click="Header, click, Nav menu - item:issues context:user" aria-label="Issues you created" data-selected-links="/issues /issues/assigned /issues/mentioned /issues" href="/issues">
+                Issues
+</a>            </li>
+                <li>
+                  <a class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-octo-click="marketplace_click" data-octo-dimensions="location:nav_bar, group:" data-selected-links=" /marketplace" href="/marketplace">
+                    Marketplace
+</a>                </li>
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                Explore
+</a>            </li>
+          </ul>
+      </div>
+
+      <div class="d-flex">
+        
+<ul class="user-nav d-flex flex-items-center list-style-none" id="user-links">
+  <li class="dropdown">
+    <span class="d-inline-block  px-2">
+      
+    <a aria-label="You have no unread notifications" class="notification-indicator tooltipped tooltipped-s  js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:read" data-channel="notification-changed:34427212" href="/notifications">
+        <span class="mail-status "></span>
+        <svg class="octicon octicon-bell" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.99 11.991v1H0v-1l.73-.58c.769-.769.809-2.547 1.189-4.416.77-3.767 4.077-4.996 4.077-4.996 0-.55.45-1 .999-1 .55 0 1 .45 1 1 0 0 3.387 1.229 4.156 4.996.38 1.879.42 3.657 1.19 4.417l.659.58h-.01zM6.995 15.99c1.11 0 1.999-.89 1.999-1.999H4.996c0 1.11.89 1.999 1.999 1.999z"/></svg>
+</a>
+    </span>
+  </li>
+
+  <li class="dropdown">
+    <details class="details-expanded details-reset js-dropdown-details d-flex px-2 flex-items-center">
+      <summary class="HeaderNavlink"
+         aria-label="Create new…"
+         data-ga-click="Header, create new, icon:add">
+        <svg class="octicon octicon-plus float-left mr-1 mt-1" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"/></svg>
+        <span class="dropdown-caret mt-1"></span>
+      </summary>
+
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="flemos/GLTF-Free">This repository</span>
+  </div>
+    <a class="dropdown-item" href="/flemos/GLTF-Free/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+
+      </ul>
+    </details>
+  </li>
+
+  <li class="dropdown">
+
+    <details class="details-expanded details-reset js-dropdown-details d-flex pl-2 flex-items-center">
+      <summary class="HeaderNavlink name mt-1"
+        aria-label="View profile and more"
+        data-ga-click="Header, show menu, icon:avatar">
+        <img alt="@philippevandal" class="avatar float-left mr-1" src="https://avatars2.githubusercontent.com/u/34427212?s=40&amp;v=4" height="20" width="20">
+        <span class="dropdown-caret"></span>
+      </summary>
+
+      <ul class="dropdown-menu dropdown-menu-sw">
+        <li class="dropdown-header header-nav-current-user css-truncate">
+          Signed in as <strong class="css-truncate-target">philippevandal</strong>
+        </li>
+
+        <li class="dropdown-divider"></li>
+
+        <li><a class="dropdown-item" href="/philippevandal" data-ga-click="Header, go to profile, text:your profile">
+          Your profile
+        </a></li>
+        <li><a class="dropdown-item" href="/philippevandal?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a></li>
+          <li><a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, your gists, text:your gists">Your gists</a></li>
+
+        <li class="dropdown-divider"></li>
+
+        <li><a class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">
+          Help
+        </a></li>
+
+        <li><a class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+          Settings
+        </a></li>
+
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="npK4dGbOLH4TWpGfyvWlemCW4CX9hHoAA/B/d2PNJlELbokXT3i1xy8jlbjv6Yq2kMGo5J/HdEg60IwuCLCZkA==" />
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+        </form></li>
+      </ul>
+    </details>
+  </li>
+</ul>
+
+
+
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="bDaLRspS0jJnVfpNvrhVs1grzmfwtSVwMNKXyukI9QH5yrol4+RLi1ss/mqbpHp/qHyGppL2KzgJ8mSTgnVKwA==" />
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </div>
+</header>
+
+      
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="e9Inh1D/TQGpbvhdvd/2E8Qt/AFnkzOAm9q5xJm98mLWMc7QqGat+8Ct88Q+QUvbEqYhhMtJGSYsIfclMursfw==" />      <input type="hidden" name="repository_id" id="repository_id" value="102994349" class="form-control" />
+
+        <div class="select-menu js-menu-container js-select-menu">
+          <a href="/flemos/GLTF-Free/subscription"
+            class="btn btn-sm btn-with-count select-menu-button js-menu-target"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-label="Toggle repository notifications menu"
+            data-ga-click="Repository, click Watch settings, action:blob#show">
+            <span class="js-select-button">
+                <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                Watch
+            </span>
+          </a>
+          <a class="social-count js-social-count"
+            href="/flemos/GLTF-Free/watchers"
+            aria-label="1 user is watching this repository">
+            1
+          </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content">
+            <div class="select-menu-header js-navigation-enable" tabindex="-1">
+              <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+              <span class="select-menu-title">Notifications</span>
+            </div>
+
+              <div class="select-menu-list js-navigation-container" role="menu">
+
+                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input type="radio" name="do" id="do_included" value="included" checked="checked" />
+                    <span class="select-menu-item-heading">Not watching</span>
+                    <span class="description">Be notified when participating or @mentioned.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                      Watch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input type="radio" name="do" id="do_subscribed" value="subscribed" />
+                    <span class="select-menu-item-heading">Watching</span>
+                    <span class="description">Be notified of all conversations.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                        Unwatch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input type="radio" name="do" id="do_ignore" value="ignore" />
+                    <span class="select-menu-item-heading">Ignoring</span>
+                    <span class="description">Never be notified.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg class="octicon octicon-mute" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"/></svg>
+                        Stop ignoring
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+</form>
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/flemos/GLTF-Free/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="skBznCb0Hs71qim9DavPxnPej+KIMQPbXaY3SkeTVYIsXxBPDLunEm1TTUc9MJXtKvIH+GHLNKRwipDEoQ1p7Q==" />
+      <input type="hidden" name="context" value="repository"></input>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Unstar this repository" title="Unstar flemos/GLTF-Free"
+        data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
+        <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/flemos/GLTF-Free/stargazers"
+           aria-label="0 users starred this repository">
+          0
+        </a>
+</form>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/flemos/GLTF-Free/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1TqRMnkLAqoSFtuYTpPEhlcGsRpNFjXSIU7G6/ICptxKimdwT6VmVbrQUMvBkZiPrtpDvPxwcx5rBWb4/0du6g==" />
+      <input type="hidden" name="context" value="repository"></input>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Star this repository" title="Star flemos/GLTF-Free"
+        data-ga-click="Repository, click star button, action:blob#show; text:Star">
+        <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/flemos/GLTF-Free/stargazers"
+           aria-label="0 users starred this repository">
+          0
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/flemos/GLTF-Free/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="DzDc0lYRrcWTeDCjpL+sMShhvkMqZjwx6+NZA6QyAYrHO3+br/VQn9HnzkoVl3bNJktIYCM8tZkZ21/44AWxyA==" />
+            <button
+                type="submit"
+                class="btn btn-sm btn-with-count"
+                data-ga-click="Repository, show fork modal, action:blob#show; text:Fork"
+                title="Fork your own copy of flemos/GLTF-Free to your account"
+                aria-label="Fork your own copy of flemos/GLTF-Free to your account">
+              <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+              Fork
+            </button>
+</form>
+    <a href="/flemos/GLTF-Free/network" class="social-count"
+       aria-label="0 users forked this repository">
+      0
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/flemos">flemos</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/flemos/GLTF-Free">GLTF-Free</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /flemos/GLTF-Free" href="/flemos/GLTF-Free">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /flemos/GLTF-Free/issues" href="/flemos/GLTF-Free/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /flemos/GLTF-Free/pulls" href="/flemos/GLTF-Free/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /flemos/GLTF-Free/projects" href="/flemos/GLTF-Free/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /flemos/GLTF-Free/wiki" href="/flemos/GLTF-Free/wiki">
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /flemos/GLTF-Free/pulse" href="/flemos/GLTF-Free/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/flemos/GLTF-Free/blob/521fab2dacc2c3504d65f6f747e8ed238f9f7e8d/open/machine/scene.gltf">Permalink</a>
+
+  <!-- blob contrib key: blob_contributors:v21:16d2c2566aa6c67943ba0b2632af785a -->
+
+  <div class="file-navigation">
+    
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/flemos/GLTF-Free/blob/master/open/machine/scene.gltf"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="BtnGroup float-right">
+      <a href="/flemos/GLTF-Free/find/master"
+            class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+            data-pjax
+            data-hotkey="t">
+        Find file
+      </a>
+      <clipboard-copy for="blob-path" class="btn btn-sm BtnGroup-item">
+        Copy path
+      </clipboard-copy>
+    </div>
+    <div id="blob-path" class="breadcrumb">
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/flemos/GLTF-Free"><span>GLTF-Free</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/flemos/GLTF-Free/tree/master/open"><span>open</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/flemos/GLTF-Free/tree/master/open/machine"><span>machine</span></a></span><span class="separator">/</span><strong class="final-path">scene.gltf</strong>
+    </div>
+  </div>
+
+
+  <include-fragment src="/flemos/GLTF-Free/contributors/master/open/machine/scene.gltf" class="commit-tease">
+    <div>
+      Fetching contributors&hellip;
+    </div>
+
+    <div class="commit-tease-contributors">
+      <img alt="" class="loader-loading float-left" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+      <span class="loader-error">Cannot retrieve contributors at this time</span>
+    </div>
+</include-fragment>
+
+
+  <div class="file">
+    <div class="file-header">
+  <div class="file-actions">
+
+    <div class="BtnGroup">
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/flemos/GLTF-Free/raw/master/open/machine/scene.gltf">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/flemos/GLTF-Free/blame/master/open/machine/scene.gltf">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/flemos/GLTF-Free/commits/master/open/machine/scene.gltf">History</a>
+    </div>
+
+        <a class="btn-octicon tooltipped tooltipped-nw"
+           href="https://desktop.github.com"
+           aria-label="Open this file in GitHub Desktop"
+           data-ga-click="Repository, open with desktop, type:mac">
+            <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
+        </a>
+
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/flemos/GLTF-Free/edit/master/open/machine/scene.gltf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KAbJ0dFKFcSy1QZV5f/U0OZibVuxZisiZqwqTVXss4zINQmGadUBoaYdLF3uP75ciW0tYqRmUyG6cDTMrMcDzA==" />
+            <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
+              aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
+              <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+            </button>
+</form>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/flemos/GLTF-Free/delete/master/open/machine/scene.gltf" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="7gKBCBLKKnfnNRDoQrOiDE1Mbq0mX8pkEWdjo4FAKWK8Ii1RZFQK1DlVhk27opsZeDXh0ajCf0aHLe6aTLrUWw==" />
+          <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
+            aria-label="Fork this project and delete the file" data-disable-with>
+            <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
+          </button>
+</form>  </div>
+
+  <div class="file-info">
+      2 lines (1 sloc)
+      <span class="file-info-divider"></span>
+    64.8 KB
+  </div>
+</div>
+
+    
+
+  <div itemprop="text" class="blob-wrapper data type-json">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">{&quot;accessors&quot;:[{&quot;bufferView&quot;:2,&quot;componentType&quot;:5126,&quot;count&quot;:1880,&quot;max&quot;:[1.3713400363922119,44.768978118896484,78.04046630859375],&quot;min&quot;:[-1.3286600112915039,-14.857040405273438,57.040470123291016],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:22560,&quot;componentType&quot;:5126,&quot;count&quot;:1880,&quot;max&quot;:[1,1,0.99998682737350464],&quot;min&quot;:[-1,-1,-0.99998682737350464],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;componentType&quot;:5126,&quot;count&quot;:1880,&quot;max&quot;:[1,0.99998867511749268,1,1],&quot;min&quot;:[-1,-0.99998688697814941,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;componentType&quot;:5125,&quot;count&quot;:8040,&quot;max&quot;:[1879],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:45120,&quot;componentType&quot;:5126,&quot;count&quot;:675,&quot;max&quot;:[1.8620799779891968,4.1197500228881836,1.8769299983978271],&quot;min&quot;:[-1.8879200220108032,-13.360879898071289,-1.8730700016021729],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:53220,&quot;componentType&quot;:5126,&quot;count&quot;:675,&quot;max&quot;:[0.9992368221282959,1,1],&quot;min&quot;:[-1,-0.99999111890792847,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:30080,&quot;componentType&quot;:5126,&quot;count&quot;:675,&quot;max&quot;:[1,0.85555273294448853,1,1],&quot;min&quot;:[-1,-0.83007848262786865,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:32160,&quot;componentType&quot;:5125,&quot;count&quot;:2694,&quot;max&quot;:[674],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:61320,&quot;componentType&quot;:5126,&quot;count&quot;:1942,&quot;max&quot;:[2.7213399410247803,5.4679598808288574,77.365470886230469],&quot;min&quot;:[-2.6786599159240723,-14.182040214538574,57.715469360351562],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:84624,&quot;componentType&quot;:5126,&quot;count&quot;:1942,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-1,-0.99872809648513794,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:40880,&quot;componentType&quot;:5126,&quot;count&quot;:1942,&quot;max&quot;:[0.017921179533004761,1,1,1],&quot;min&quot;:[-0.012898203916847706,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:42936,&quot;componentType&quot;:5125,&quot;count&quot;:9306,&quot;max&quot;:[1941],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:107928,&quot;componentType&quot;:5126,&quot;count&quot;:18681,&quot;max&quot;:[5.9874200820922852,41.987388610839844,16.971029281616211],&quot;min&quot;:[-6.0125799179077148,-71.395401000976562,-17.357109069824219],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:332100,&quot;componentType&quot;:5126,&quot;count&quot;:18681,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:71952,&quot;componentType&quot;:5126,&quot;count&quot;:18681,&quot;max&quot;:[1,1,1,1],&quot;min&quot;:[-1,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:80160,&quot;componentType&quot;:5125,&quot;count&quot;:80400,&quot;max&quot;:[18680],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:556272,&quot;componentType&quot;:5126,&quot;count&quot;:1335,&quot;max&quot;:[40.946380615234375,39.40618896484375,102.90431976318359],&quot;min&quot;:[15.833209991455078,11.850029945373535,95.773750305175781],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:572292,&quot;componentType&quot;:5126,&quot;count&quot;:1335,&quot;max&quot;:[1,1,0.99999231100082397],&quot;min&quot;:[-0.99999982118606567,-1,-0.99999934434890747],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:370848,&quot;componentType&quot;:5126,&quot;count&quot;:1335,&quot;max&quot;:[1,1,1,1],&quot;min&quot;:[-0.99999284744262695,-0.99790698289871216,-0.99894875288009644,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:401760,&quot;componentType&quot;:5125,&quot;count&quot;:6408,&quot;max&quot;:[1334],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:588312,&quot;componentType&quot;:5126,&quot;count&quot;:2407,&quot;max&quot;:[-6.7286601066589355,68.247352600097656,92.777687072753906],&quot;min&quot;:[-9.7286596298217773,47.502510070800781,50.104801177978516],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:617196,&quot;componentType&quot;:5126,&quot;count&quot;:2407,&quot;max&quot;:[1,0.99999517202377319,0.99996215105056763],&quot;min&quot;:[-1,-0.99984657764434814,-0.99966037273406982],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:392208,&quot;componentType&quot;:5126,&quot;count&quot;:2407,&quot;max&quot;:[0.078224226832389832,0.99996215105056763,1,1],&quot;min&quot;:[-0.56830459833145142,-0.99999845027923584,-0.99999523162841797,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:427392,&quot;componentType&quot;:5125,&quot;count&quot;:10824,&quot;max&quot;:[2406],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:646080,&quot;componentType&quot;:5126,&quot;count&quot;:984,&quot;max&quot;:[3.7499399185180664,1.6966899633407593,1.6592099666595459],&quot;min&quot;:[-3.7500600814819336,-1.6783100366592407,-1.7157900333404541],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:657888,&quot;componentType&quot;:5126,&quot;count&quot;:984,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-1,-0.99518734216690063,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:430720,&quot;componentType&quot;:5126,&quot;count&quot;:984,&quot;max&quot;:[0.003195224329829216,1,1,1],&quot;min&quot;:[-0.0033381101675331593,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:470688,&quot;componentType&quot;:5125,&quot;count&quot;:4212,&quot;max&quot;:[983],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:669696,&quot;componentType&quot;:5126,&quot;count&quot;:2227,&quot;max&quot;:[2.9999399185180664,3.0939700603485107,4.1505398750305176],&quot;min&quot;:[-5.999999848427251e-05,-29.168849945068359,-9.3860597610473633],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:696420,&quot;componentType&quot;:5126,&quot;count&quot;:2227,&quot;max&quot;:[1,0.99999338388442993,0.99990111589431763],&quot;min&quot;:[-1,-0.9998590350151062,-0.99999946355819702],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:446464,&quot;componentType&quot;:5126,&quot;count&quot;:2227,&quot;max&quot;:[0.9999733567237854,0.99999946355819702,1,1],&quot;min&quot;:[-1,-0.99999845027923584,-0.99999338388442993,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:487536,&quot;componentType&quot;:5125,&quot;count&quot;:10350,&quot;max&quot;:[2226],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:723144,&quot;componentType&quot;:5126,&quot;count&quot;:2373,&quot;max&quot;:[9.75,5.5343098640441895,4.7875699996948242],&quot;min&quot;:[6.7500100135803223,-4.5297698974609375,-27.024879455566406],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:751620,&quot;componentType&quot;:5126,&quot;count&quot;:2373,&quot;max&quot;:[1,0.99999815225601196,0.99978083372116089],&quot;min&quot;:[-1,-0.99986809492111206,-0.99965071678161621],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:482096,&quot;componentType&quot;:5126,&quot;count&quot;:2373,&quot;max&quot;:[0.018492251634597778,0.99999904632568359,1,1],&quot;min&quot;:[-0.032114569097757339,-0.9997822642326355,-0.99999922513961792,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:528936,&quot;componentType&quot;:5125,&quot;count&quot;:11898,&quot;max&quot;:[2372],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:780096,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[3.7355198860168457,1.6919100284576416,1.6518399715423584],&quot;min&quot;:[-3.7644801139831543,-1.6823099851608276,-1.7223700284957886],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:791952,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[1,0.99976843595504761,0.99976843595504761],&quot;min&quot;:[-1,-0.99976843595504761,-0.99976843595504761],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:520064,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[0.004019646905362606,0.99995732307434082,0.99992048740386963,1],&quot;min&quot;:[-0.0032753006089478731,-0.99992090463638306,-0.99992066621780396,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:576528,&quot;componentType&quot;:5125,&quot;count&quot;:4224,&quot;max&quot;:[987],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:803808,&quot;componentType&quot;:5126,&quot;count&quot;:2205,&quot;max&quot;:[-0.014480000361800194,2.9055099487304688,25.990329742431641],&quot;min&quot;:[-3.0144801139831543,-22.289400100708008,-3.0643699169158936],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:830268,&quot;componentType&quot;:5126,&quot;count&quot;:2205,&quot;max&quot;:[1,0.99996656179428101,0.99877554178237915],&quot;min&quot;:[-1,-0.99986022710800171,-0.99927657842636108],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:535872,&quot;componentType&quot;:5126,&quot;count&quot;:2205,&quot;max&quot;:[1,1,0.99996656179428101,1],&quot;min&quot;:[-0.98911339044570923,-0.99877560138702393,-0.99986022710800171,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:593424,&quot;componentType&quot;:5125,&quot;count&quot;:10284,&quot;max&quot;:[2204],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:856728,&quot;componentType&quot;:5126,&quot;count&quot;:2291,&quot;max&quot;:[-6.75,5.1230897903442383,4.7628898620605469],&quot;min&quot;:[-9.75,-10.331890106201172,-25.884929656982422],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:884220,&quot;componentType&quot;:5126,&quot;count&quot;:2291,&quot;max&quot;:[1,0.99997681379318237,0.99970990419387817],&quot;min&quot;:[-1,-0.99999243021011353,-0.9996986985206604],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:571152,&quot;componentType&quot;:5126,&quot;count&quot;:2291,&quot;max&quot;:[0.9999924898147583,0.99970114231109619,0.99997848272323608,1],&quot;min&quot;:[-0.034776616841554642,-0.9997100830078125,-0.99999850988388062,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:634560,&quot;componentType&quot;:5125,&quot;count&quot;:11496,&quot;max&quot;:[2290],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:911712,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[1.6769900321960449,16.001970291137695,1.6817200183868408],&quot;min&quot;:[-1.6980099678039551,-16.130250930786133,-1.6932799816131592],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:923568,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[0.99518734216690063,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:607808,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[1,0.0040097879245877266,1,1],&quot;min&quot;:[-1,-0.0033436920493841171,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:680544,&quot;componentType&quot;:5125,&quot;count&quot;:4224,&quot;max&quot;:[987],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:935424,&quot;componentType&quot;:5126,&quot;count&quot;:2725,&quot;max&quot;:[100.46819305419922,0.75274002552032471,5.1736001968383789],&quot;min&quot;:[-2.5099399089813232,-12.799160003662109,-2.5023300647735596],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:968124,&quot;componentType&quot;:5126,&quot;count&quot;:2725,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:623616,&quot;componentType&quot;:5126,&quot;count&quot;:2725,&quot;max&quot;:[1,1,1,1],&quot;min&quot;:[-1,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:697440,&quot;componentType&quot;:5125,&quot;count&quot;:11820,&quot;max&quot;:[2724],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1000824,&quot;componentType&quot;:5126,&quot;count&quot;:5757,&quot;max&quot;:[119.51381683349609,21.333759307861328,3.9306399822235107],&quot;min&quot;:[-2.2603199481964111,-57.825931549072266,-12.318829536437988],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1069908,&quot;componentType&quot;:5126,&quot;count&quot;:5757,&quot;max&quot;:[0.99996215105056763,1,0.99999982118606567],&quot;min&quot;:[-0.99975794553756714,-1,-0.99999982118606567],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:667216,&quot;componentType&quot;:5126,&quot;count&quot;:5757,&quot;max&quot;:[1,1,0.9999622106552124,1],&quot;min&quot;:[-1,-1,-0.99997144937515259,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:744720,&quot;componentType&quot;:5125,&quot;count&quot;:20532,&quot;max&quot;:[5756],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1138992,&quot;componentType&quot;:5126,&quot;count&quot;:990,&quot;max&quot;:[1.6775499582290649,4.4929800033569336,1.685189962387085],&quot;min&quot;:[-1.6974500417709351,-4.5111699104309082,-1.689810037612915],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1150872,&quot;componentType&quot;:5126,&quot;count&quot;:990,&quot;max&quot;:[0.99518734216690063,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:759328,&quot;componentType&quot;:5126,&quot;count&quot;:990,&quot;max&quot;:[1,0.0042112795636057854,1,1],&quot;min&quot;:[-1,-0.0045340587384998798,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:826848,&quot;componentType&quot;:5125,&quot;count&quot;:4230,&quot;max&quot;:[989],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1162752,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[1.6798299551010132,22.067539215087891,1.687440037727356],&quot;min&quot;:[-1.6951700448989868,-22.067359924316406,-1.687559962272644],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1174608,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[0.99518734216690063,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:775168,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[1,0.004534219391644001,1,1],&quot;min&quot;:[-1,-0.0045342589728534222,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:843768,&quot;componentType&quot;:5125,&quot;count&quot;:4224,&quot;max&quot;:[987],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1186464,&quot;componentType&quot;:5126,&quot;count&quot;:990,&quot;max&quot;:[1.6775499582290649,3.7422699928283691,1.6851799488067627],&quot;min&quot;:[-1.6974500417709351,-3.7577300071716309,-1.6898200511932373],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1198344,&quot;componentType&quot;:5126,&quot;count&quot;:990,&quot;max&quot;:[0.99518734216690063,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:790976,&quot;componentType&quot;:5126,&quot;count&quot;:990,&quot;max&quot;:[1,0.0042140115983784199,1,1],&quot;min&quot;:[-1,-0.004534249659627676,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:860664,&quot;componentType&quot;:5125,&quot;count&quot;:4230,&quot;max&quot;:[989],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1210224,&quot;componentType&quot;:5126,&quot;count&quot;:1272,&quot;max&quot;:[16.427469253540039,73.90618896484375,107.42453002929688],&quot;min&quot;:[7.2201399803161621,70.90618896484375,74.379180908203125],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1225488,&quot;componentType&quot;:5126,&quot;count&quot;:1272,&quot;max&quot;:[0.99999445676803589,1,0.99999982118606567],&quot;min&quot;:[-0.99998992681503296,-1,-0.99999970197677612],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:806816,&quot;componentType&quot;:5126,&quot;count&quot;:1272,&quot;max&quot;:[1,0.99519020318984985,0.99999535083770752,1],&quot;min&quot;:[-1,-1,-0.99999010562896729,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:877584,&quot;componentType&quot;:5125,&quot;count&quot;:5004,&quot;max&quot;:[1271],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1240752,&quot;componentType&quot;:5126,&quot;count&quot;:4449,&quot;max&quot;:[70.025367736816406,46.016948699951172,7.0183100700378418],&quot;min&quot;:[-32.087390899658203,-37.761589050292969,-2.471019983291626],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1294140,&quot;componentType&quot;:5126,&quot;count&quot;:4449,&quot;max&quot;:[0.99999898672103882,1,0.99999481439590454],&quot;min&quot;:[-0.99997419118881226,-1,-0.9999958872795105],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:827168,&quot;componentType&quot;:5126,&quot;count&quot;:4449,&quot;max&quot;:[1,0.99993431568145752,0.99999809265136719,1],&quot;min&quot;:[-1,-1,-0.99999743700027466,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:897600,&quot;componentType&quot;:5125,&quot;count&quot;:15330,&quot;max&quot;:[4448],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1347528,&quot;componentType&quot;:5126,&quot;count&quot;:992,&quot;max&quot;:[1.6951500177383423,16.066110610961914,1.6872700452804565],&quot;min&quot;:[-1.6798499822616577,-16.066110610961914,-1.6877299547195435],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1359432,&quot;componentType&quot;:5126,&quot;count&quot;:992,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-0.9951903223991394,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:898352,&quot;componentType&quot;:5126,&quot;count&quot;:992,&quot;max&quot;:[1,0.0045347362756729126,1,1],&quot;min&quot;:[-1,-0.0042139072902500629,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:958920,&quot;componentType&quot;:5125,&quot;count&quot;:4236,&quot;max&quot;:[991],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1371336,&quot;componentType&quot;:5126,&quot;count&quot;:2717,&quot;max&quot;:[61.502849578857422,3.6775801181793213,3.3818700313568115],&quot;min&quot;:[-41.475269317626953,-9.8743200302124023,-4.294060230255127],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1403940,&quot;componentType&quot;:5126,&quot;count&quot;:2717,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:914224,&quot;componentType&quot;:5126,&quot;count&quot;:2717,&quot;max&quot;:[1,0.99474412202835083,1,1],&quot;min&quot;:[-1,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:975864,&quot;componentType&quot;:5125,&quot;count&quot;:11796,&quot;max&quot;:[2716],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1436544,&quot;componentType&quot;:5126,&quot;count&quot;:5725,&quot;max&quot;:[2.2622799873352051,21.289180755615234,3.9280300140380859],&quot;min&quot;:[-119.51186370849609,-57.870510101318359,-12.321439743041992],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1505244,&quot;componentType&quot;:5126,&quot;count&quot;:5725,&quot;max&quot;:[0.99975794553756714,1,0.99999982118606567],&quot;min&quot;:[-0.99996215105056763,-1,-0.99999982118606567],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:957696,&quot;componentType&quot;:5126,&quot;count&quot;:5725,&quot;max&quot;:[1,1,0.99997138977050781,1],&quot;min&quot;:[-1,-1,-0.99997138977050781,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1023048,&quot;componentType&quot;:5125,&quot;count&quot;:20436,&quot;max&quot;:[5724],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1573944,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[1.69691002368927,3.7642700672149658,1.6935199499130249],&quot;min&quot;:[-1.67808997631073,-3.7357299327850342,-1.6814800500869751],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1585800,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-0.99518734216690063,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1049296,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[1,0.0042154849506914616,1,1],&quot;min&quot;:[-1,-0.0045386673882603645,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1104792,&quot;componentType&quot;:5125,&quot;count&quot;:4224,&quot;max&quot;:[987],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1597656,&quot;componentType&quot;:5126,&quot;count&quot;:990,&quot;max&quot;:[1.6971299648284912,22.022960662841797,1.6848200559616089],&quot;min&quot;:[-1.6778700351715088,-22.111930847167969,-1.6901799440383911],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1609536,&quot;componentType&quot;:5126,&quot;count&quot;:990,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-0.99518734216690063,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1065104,&quot;componentType&quot;:5126,&quot;count&quot;:990,&quot;max&quot;:[1,0.0045376052148640156,1,1],&quot;min&quot;:[-1,-0.0045347376726567745,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1121688,&quot;componentType&quot;:5125,&quot;count&quot;:4230,&quot;max&quot;:[989],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1621416,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[1.69691002368927,4.5195498466491699,1.6935299634933472],&quot;min&quot;:[-1.67808997631073,-4.4846000671386719,-1.6814700365066528],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1633272,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-0.99518734216690063,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1080944,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[1,0.0042108725756406784,1,1],&quot;min&quot;:[-1,-0.0045340582728385925,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1138608,&quot;componentType&quot;:5125,&quot;count&quot;:4224,&quot;max&quot;:[987],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1645128,&quot;componentType&quot;:5126,&quot;count&quot;:1274,&quot;max&quot;:[-7.1774601936340332,73.90618896484375,107.42453002929688],&quot;min&quot;:[-16.384740829467773,70.90618896484375,74.379180908203125],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1660416,&quot;componentType&quot;:5126,&quot;count&quot;:1274,&quot;max&quot;:[0.99998480081558228,1,0.99999970197677612],&quot;min&quot;:[-0.99997776746749878,-1,-0.99999970197677612],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1096752,&quot;componentType&quot;:5126,&quot;count&quot;:1274,&quot;max&quot;:[1,1,0.99997711181640625,1],&quot;min&quot;:[-1,-1,-0.99999541044235229,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1155504,&quot;componentType&quot;:5125,&quot;count&quot;:5010,&quot;max&quot;:[1273],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1675704,&quot;componentType&quot;:5126,&quot;count&quot;:4451,&quot;max&quot;:[32.085708618164062,46.137290954589844,7.0239601135253906],&quot;min&quot;:[-70.02703857421875,-37.641250610351562,-2.4653699398040771],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1729116,&quot;componentType&quot;:5126,&quot;count&quot;:4451,&quot;max&quot;:[0.99997419118881226,1,0.99999481439590454],&quot;min&quot;:[-0.99999898672103882,-1,-0.99999600648880005],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1117136,&quot;componentType&quot;:5126,&quot;count&quot;:4451,&quot;max&quot;:[1,0.99993377923965454,0.99999809265136719,1],&quot;min&quot;:[-1,-1,-0.99999743700027466,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1175544,&quot;componentType&quot;:5125,&quot;count&quot;:15330,&quot;max&quot;:[4450],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1782528,&quot;componentType&quot;:5126,&quot;count&quot;:1150,&quot;max&quot;:[-6.3568201065063477,3.2079000473022461,15.76809024810791],&quot;min&quot;:[-12.931819915771484,-3.1670999526977539,-3.1694099903106689],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1796328,&quot;componentType&quot;:5126,&quot;count&quot;:1150,&quot;max&quot;:[1,0.99993526935577393,1],&quot;min&quot;:[-1,-0.99949812889099121,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:1,&quot;componentType&quot;:5126,&quot;count&quot;:1150,&quot;max&quot;:[0.01537999976426363,0.0134699996560812],&quot;min&quot;:[-0.0134699996560812,-0.0028099999763071537],&quot;type&quot;:&quot;VEC2&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1188352,&quot;componentType&quot;:5126,&quot;count&quot;:1150,&quot;max&quot;:[0.99518734216690063,1,1,1],&quot;min&quot;:[-1,-1,-0.99994367361068726,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1236864,&quot;componentType&quot;:5125,&quot;count&quot;:4650,&quot;max&quot;:[1149],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1810128,&quot;componentType&quot;:5126,&quot;count&quot;:1144,&quot;max&quot;:[12.968179702758789,3.2079000473022461,3.2055900096893311],&quot;min&quot;:[6.3931899070739746,-3.1670999526977539,-15.73190975189209],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1823856,&quot;componentType&quot;:5126,&quot;count&quot;:1144,&quot;max&quot;:[1,0.99949812889099121,1],&quot;min&quot;:[-1,-0.99993526935577393,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:1,&quot;byteOffset&quot;:9200,&quot;componentType&quot;:5126,&quot;count&quot;:1144,&quot;max&quot;:[0.0134699996560812,0.0134699996560812],&quot;min&quot;:[-0.0096699995920062065,-0.01537999976426363],&quot;type&quot;:&quot;VEC2&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1206752,&quot;componentType&quot;:5126,&quot;count&quot;:1144,&quot;max&quot;:[0.99518734216690063,1,0.99993836879730225,1],&quot;min&quot;:[-1,-1,-0.99996060132980347,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1255464,&quot;componentType&quot;:5125,&quot;count&quot;:4632,&quot;max&quot;:[1143],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1837584,&quot;componentType&quot;:5126,&quot;count&quot;:4932,&quot;max&quot;:[3.4015700817108154,5.9952001571655273,5.9777998924255371],&quot;min&quot;:[-3.3484299182891846,-5.9739699363708496,-5.99114990234375],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1896768,&quot;componentType&quot;:5126,&quot;count&quot;:4932,&quot;max&quot;:[1,0.99996250867843628,0.99996465444564819],&quot;min&quot;:[-1,-0.99996250867843628,-0.99996465444564819],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1225056,&quot;componentType&quot;:5126,&quot;count&quot;:4932,&quot;max&quot;:[1,1,1,1],&quot;min&quot;:[-1,-0.99994969367980957,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1273992,&quot;componentType&quot;:5125,&quot;count&quot;:14736,&quot;max&quot;:[4931],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1955952,&quot;componentType&quot;:5126,&quot;count&quot;:2370,&quot;max&quot;:[-1.478659987449646,56.851089477539062,75.293907165527344],&quot;min&quot;:[-3.3536601066589355,44.881290435791016,63.325599670410156],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:1984392,&quot;componentType&quot;:5126,&quot;count&quot;:2370,&quot;max&quot;:[1,0.99996060132980347,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1303968,&quot;componentType&quot;:5126,&quot;count&quot;:2370,&quot;max&quot;:[1,1,1,1],&quot;min&quot;:[-1,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1332936,&quot;componentType&quot;:5125,&quot;count&quot;:6432,&quot;max&quot;:[2369],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:2012832,&quot;componentType&quot;:5126,&quot;count&quot;:8548,&quot;max&quot;:[17.338680267333984,7.3252201080322266,7.197810173034668],&quot;min&quot;:[14.338669776916504,-7.1420202255249023,-7.3017501831054688],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:2115408,&quot;componentType&quot;:5126,&quot;count&quot;:8548,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1341888,&quot;componentType&quot;:5126,&quot;count&quot;:8548,&quot;max&quot;:[1,1,1,1],&quot;min&quot;:[-1,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1358664,&quot;componentType&quot;:5125,&quot;count&quot;:34848,&quot;max&quot;:[8547],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:2217984,&quot;componentType&quot;:5126,&quot;count&quot;:5986,&quot;max&quot;:[9.8406200408935547,23.793949127197266,8.999420166015625],&quot;min&quot;:[-11.991140365600586,11.043950080871582,-12.300430297851562],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:2289816,&quot;componentType&quot;:5126,&quot;count&quot;:5986,&quot;max&quot;:[0.99999576807022095,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1478656,&quot;componentType&quot;:5126,&quot;count&quot;:5986,&quot;max&quot;:[1,0.22942057251930237,1,1],&quot;min&quot;:[-1,-0.6480821967124939,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1498056,&quot;componentType&quot;:5125,&quot;count&quot;:25224,&quot;max&quot;:[5985],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:2361648,&quot;componentType&quot;:5126,&quot;count&quot;:1052,&quot;max&quot;:[1.8700000047683716,13.793959617614746,1.867859959602356],&quot;min&quot;:[-1.8799300193786621,-12.206049919128418,-1.882140040397644],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:2374272,&quot;componentType&quot;:5126,&quot;count&quot;:1052,&quot;max&quot;:[0.99998301267623901,1,1],&quot;min&quot;:[-0.999980628490448,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1574432,&quot;componentType&quot;:5126,&quot;count&quot;:1052,&quot;max&quot;:[1,0.0044231186620891094,0.99998307228088379,1],&quot;min&quot;:[-1,-0.0050326441414654255,-0.99999403953552246,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1598952,&quot;componentType&quot;:5125,&quot;count&quot;:4416,&quot;max&quot;:[1051],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:2386896,&quot;componentType&quot;:5126,&quot;count&quot;:8872,&quot;max&quot;:[7.3073601722717285,-4.7266101837158203,7.2987499237060547],&quot;min&quot;:[-7.1528902053833008,-7.7266101837158203,-7.2058901786804199],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:2493360,&quot;componentType&quot;:5126,&quot;count&quot;:8872,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1591264,&quot;componentType&quot;:5126,&quot;count&quot;:8872,&quot;max&quot;:[1,1,1,1],&quot;min&quot;:[-1,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1616616,&quot;componentType&quot;:5125,&quot;count&quot;:35700,&quot;max&quot;:[8871],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:2599824,&quot;componentType&quot;:5126,&quot;count&quot;:8462,&quot;max&quot;:[-14.453789710998535,7.3252301216125488,7.197850227355957],&quot;min&quot;:[-17.453800201416016,-7.1420102119445801,-7.3017101287841797],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:2701368,&quot;componentType&quot;:5126,&quot;count&quot;:8462,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1733216,&quot;componentType&quot;:5126,&quot;count&quot;:8462,&quot;max&quot;:[1,1,1,1],&quot;min&quot;:[-1,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1759416,&quot;componentType&quot;:5125,&quot;count&quot;:34608,&quot;max&quot;:[8461],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:2802912,&quot;componentType&quot;:5126,&quot;count&quot;:5980,&quot;max&quot;:[11.97544002532959,23.793949127197266,9.0001802444458008],&quot;min&quot;:[-9.8563203811645508,11.043950080871582,-12.299670219421387],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:2874672,&quot;componentType&quot;:5126,&quot;count&quot;:5980,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1868608,&quot;componentType&quot;:5126,&quot;count&quot;:5980,&quot;max&quot;:[1,1,1,1],&quot;min&quot;:[-1,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1897848,&quot;componentType&quot;:5125,&quot;count&quot;:25212,&quot;max&quot;:[5979],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:2946432,&quot;componentType&quot;:5126,&quot;count&quot;:1052,&quot;max&quot;:[1.8642699718475342,13.793950080871582,1.8686100244522095],&quot;min&quot;:[-1.8857300281524658,-12.206060409545898,-1.8813899755477905],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:2959056,&quot;componentType&quot;:5126,&quot;count&quot;:1052,&quot;max&quot;:[0.995796799659729,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1964288,&quot;componentType&quot;:5126,&quot;count&quot;:1052,&quot;max&quot;:[1,0.0044202008284628391,1,1],&quot;min&quot;:[-1,-0.0050287004560232162,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:1998696,&quot;componentType&quot;:5125,&quot;count&quot;:4416,&quot;max&quot;:[1051],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:2971680,&quot;componentType&quot;:5126,&quot;count&quot;:8916,&quot;max&quot;:[7.137199878692627,-4.726600170135498,7.2995100021362305],&quot;min&quot;:[-7.3230600357055664,-7.726600170135498,-7.2051301002502441],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3078672,&quot;componentType&quot;:5126,&quot;count&quot;:8916,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:1981120,&quot;componentType&quot;:5126,&quot;count&quot;:8916,&quot;max&quot;:[1,1,1,1],&quot;min&quot;:[-1,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:2016360,&quot;componentType&quot;:5125,&quot;count&quot;:35814,&quot;max&quot;:[8915],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3185664,&quot;componentType&quot;:5126,&quot;count&quot;:2370,&quot;max&quot;:[0.93747997283935547,5.9858899116516113,5.9842500686645508],&quot;min&quot;:[-0.93752002716064453,-5.9839200973510742,-5.9840598106384277],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3214104,&quot;componentType&quot;:5126,&quot;count&quot;:2370,&quot;max&quot;:[1,0.99995929002761841,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:2123776,&quot;componentType&quot;:5126,&quot;count&quot;:2370,&quot;max&quot;:[1,1,1,1],&quot;min&quot;:[-1,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:2159616,&quot;componentType&quot;:5125,&quot;count&quot;:6432,&quot;max&quot;:[2369],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3242544,&quot;componentType&quot;:5126,&quot;count&quot;:1512,&quot;max&quot;:[10.5,3.0162301063537598,2.9742999076843262],&quot;min&quot;:[-10.5,-2.9837698936462402,-3.0257000923156738],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3260688,&quot;componentType&quot;:5126,&quot;count&quot;:1512,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-1,-0.99518734216690063,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:2161696,&quot;componentType&quot;:5126,&quot;count&quot;:1512,&quot;max&quot;:[0.0042117703706026077,1,1,1],&quot;min&quot;:[-0.0045320554636418819,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:2185344,&quot;componentType&quot;:5125,&quot;count&quot;:5772,&quot;max&quot;:[1511],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3278832,&quot;componentType&quot;:5126,&quot;count&quot;:2381,&quot;max&quot;:[9.7713403701782227,68.247352600097656,92.777687072753906],&quot;min&quot;:[6.7713398933410645,47.502510070800781,50.104801177978516],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3307404,&quot;componentType&quot;:5126,&quot;count&quot;:2381,&quot;max&quot;:[1,0.99999517202377319,0.99972313642501831],&quot;min&quot;:[-1,-0.99984657764434814,-0.99966037273406982],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:2185888,&quot;componentType&quot;:5126,&quot;count&quot;:2381,&quot;max&quot;:[0.56520944833755493,0.9999968409538269,1,1],&quot;min&quot;:[-1,-0.99999934434890747,-0.99999541044235229,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:2208432,&quot;componentType&quot;:5125,&quot;count&quot;:10668,&quot;max&quot;:[2380],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3335976,&quot;componentType&quot;:5126,&quot;count&quot;:1798,&quot;max&quot;:[3.7713398933410645,54.968399047851562,94.463348388671875],&quot;min&quot;:[-3.7286601066589355,18.407199859619141,78.633956909179688],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3357552,&quot;componentType&quot;:5126,&quot;count&quot;:1798,&quot;max&quot;:[1,1,0.99964272975921631],&quot;min&quot;:[-1,-0.99987548589706421,-0.99983727931976318],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:2223984,&quot;componentType&quot;:5126,&quot;count&quot;:1798,&quot;max&quot;:[0.0075695677660405636,0.99993681907653809,1,1],&quot;min&quot;:[-0.0081064589321613312,-0.99993765354156494,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:2251104,&quot;componentType&quot;:5125,&quot;count&quot;:8376,&quot;max&quot;:[1797],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3379128,&quot;componentType&quot;:5126,&quot;count&quot;:1331,&quot;max&quot;:[-15.790539741516113,39.40618896484375,102.90431976318359],&quot;min&quot;:[-40.903709411621094,11.850029945373535,95.773750305175781],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3395100,&quot;componentType&quot;:5126,&quot;count&quot;:1331,&quot;max&quot;:[0.99999982118606567,1,0.99999231100082397],&quot;min&quot;:[-1,-1,-0.99999934434890747],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:2252752,&quot;componentType&quot;:5126,&quot;count&quot;:1331,&quot;max&quot;:[0.99999290704727173,0.74598169326782227,1,1],&quot;min&quot;:[-1,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:2284608,&quot;componentType&quot;:5125,&quot;count&quot;:6396,&quot;max&quot;:[1330],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3411072,&quot;componentType&quot;:5126,&quot;count&quot;:990,&quot;max&quot;:[9.0181798934936523,2.4579000473022461,2.4555900096893311],&quot;min&quot;:[-8.9818201065063477,-2.4170999526977539,-2.4194099903106689],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3422952,&quot;componentType&quot;:5126,&quot;count&quot;:990,&quot;max&quot;:[1,0.99996763467788696,0.99996763467788696],&quot;min&quot;:[-1,-0.99996763467788696,-0.99996763467788696],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:2274048,&quot;componentType&quot;:5126,&quot;count&quot;:990,&quot;max&quot;:[0.0039484836161136627,1,1,1],&quot;min&quot;:[-0.0033821079414337873,-0.99999701976776123,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:2310192,&quot;componentType&quot;:5125,&quot;count&quot;:4230,&quot;max&quot;:[989],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3434832,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[1.6770100593566895,29.782609939575195,1.6535300016403198],&quot;min&quot;:[-1.6979899406433105,-30.023550033569336,-1.7214699983596802],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3446688,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[0.99518734216690063,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:2289888,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[1,0.0040033082477748394,1,1],&quot;min&quot;:[-1,-0.0032702621538192034,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:2327112,&quot;componentType&quot;:5125,&quot;count&quot;:4224,&quot;max&quot;:[987],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3458544,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[6.7765698432922363,1.8856199979782104,1.8683300018310547],&quot;min&quot;:[-6.7234301567077637,-1.8643900156021118,-1.8816699981689453],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3470400,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-1,-0.99518734216690063,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:2305696,&quot;componentType&quot;:5126,&quot;count&quot;:988,&quot;max&quot;:[0.0044233556836843491,1,1,1],&quot;min&quot;:[-0.005031234584748745,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:2344008,&quot;componentType&quot;:5125,&quot;count&quot;:4224,&quot;max&quot;:[987],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3482256,&quot;componentType&quot;:5126,&quot;count&quot;:1248,&quot;max&quot;:[18.088649749755859,1.8882399797439575,1.88031005859375],&quot;min&quot;:[-18.203800201416016,-1.861780047416687,-1.86968994140625],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3497232,&quot;componentType&quot;:5126,&quot;count&quot;:1248,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-1,-0.99518734216690063,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:2321504,&quot;componentType&quot;:5126,&quot;count&quot;:1248,&quot;max&quot;:[0.0050312234088778496,1,1,1],&quot;min&quot;:[-0.0044237691909074783,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:2360904,&quot;componentType&quot;:5125,&quot;count&quot;:4992,&quot;max&quot;:[1247],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3512208,&quot;componentType&quot;:5126,&quot;count&quot;:984,&quot;max&quot;:[1.6963100433349609,29.902950286865234,1.6591900587081909],&quot;min&quot;:[-1.6786899566650391,-29.903209686279297,-1.7158099412918091],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3524016,&quot;componentType&quot;:5126,&quot;count&quot;:984,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-0.9951903223991394,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:2341472,&quot;componentType&quot;:5126,&quot;count&quot;:984,&quot;max&quot;:[1,0.0033428440801799297,1,1],&quot;min&quot;:[-1,-0.0031978555489331484,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:2380872,&quot;componentType&quot;:5125,&quot;count&quot;:4212,&quot;max&quot;:[983],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3535824,&quot;componentType&quot;:5126,&quot;count&quot;:7606,&quot;max&quot;:[30.967830657958984,68.776443481445312,66.215782165527344],&quot;min&quot;:[-30.925159454345703,-40.707981109619141,51.377040863037109],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3627096,&quot;componentType&quot;:5126,&quot;count&quot;:7606,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:2357216,&quot;componentType&quot;:5126,&quot;count&quot;:7606,&quot;max&quot;:[1,1,1,1],&quot;min&quot;:[-1,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:2397720,&quot;componentType&quot;:5125,&quot;count&quot;:32616,&quot;max&quot;:[7605],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3718368,&quot;componentType&quot;:5126,&quot;count&quot;:514,&quot;max&quot;:[2.2713398933410645,68.95819091796875,97.021942138671875],&quot;min&quot;:[-2.2286601066589355,53.183311462402344,82.889556884765625],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3724536,&quot;componentType&quot;:5126,&quot;count&quot;:514,&quot;max&quot;:[1,0.99757426977157593,0.99999839067459106],&quot;min&quot;:[-1,-0.99982964992523193,-0.99996930360794067],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:2478912,&quot;componentType&quot;:5126,&quot;count&quot;:514,&quot;max&quot;:[0.0026441323570907116,0.99996930360794067,1,1],&quot;min&quot;:[-1,-0.99999839067459106,-0.9992639422416687,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:2528184,&quot;componentType&quot;:5125,&quot;count&quot;:1494,&quot;max&quot;:[513],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3730704,&quot;componentType&quot;:5126,&quot;count&quot;:5052,&quot;max&quot;:[94.249412536621094,-21.52086067199707,69.79046630859375],&quot;min&quot;:[-94.206733703613281,-84.725028991699219,59.317031860351562],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3791328,&quot;componentType&quot;:5126,&quot;count&quot;:5052,&quot;max&quot;:[1,1,0.99998933076858521],&quot;min&quot;:[-1,-1,-0.99998873472213745],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:2487136,&quot;componentType&quot;:5126,&quot;count&quot;:5052,&quot;max&quot;:[0.99999737739562988,1,1,1],&quot;min&quot;:[-1,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:2534160,&quot;componentType&quot;:5125,&quot;count&quot;:14178,&quot;max&quot;:[5051],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3851952,&quot;componentType&quot;:5126,&quot;count&quot;:1504,&quot;max&quot;:[10.521340370178223,53.258960723876953,90.9329833984375],&quot;min&quot;:[-10.478659629821777,48.758960723876953,86.4329833984375],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3870000,&quot;componentType&quot;:5126,&quot;count&quot;:1504,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-1,-0.9951903223991394,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:2567968,&quot;componentType&quot;:5126,&quot;count&quot;:1504,&quot;max&quot;:[0.0031995773315429688,1,1,1],&quot;min&quot;:[-0.0033444738946855068,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:2590872,&quot;componentType&quot;:5125,&quot;count&quot;:5748,&quot;max&quot;:[1503],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:3888048,&quot;componentType&quot;:5126,&quot;count&quot;:30069,&quot;max&quot;:[42.060459136962891,24.492599487304688,22.38456916809082],&quot;min&quot;:[-42.116100311279297,-13.708720207214355,-24.179859161376953],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:2,&quot;byteOffset&quot;:4248876,&quot;componentType&quot;:5126,&quot;count&quot;:30069,&quot;max&quot;:[1,1,1],&quot;min&quot;:[-1,-1,-1],&quot;type&quot;:&quot;VEC3&quot;},{&quot;bufferView&quot;:3,&quot;byteOffset&quot;:2592032,&quot;componentType&quot;:5126,&quot;count&quot;:30069,&quot;max&quot;:[1,1,1,1],&quot;min&quot;:[-1,-1,-1,-1],&quot;type&quot;:&quot;VEC4&quot;},{&quot;bufferView&quot;:0,&quot;byteOffset&quot;:2613864,&quot;componentType&quot;:5125,&quot;count&quot;:125424,&quot;max&quot;:[30068],&quot;min&quot;:[0],&quot;type&quot;:&quot;SCALAR&quot;}],&quot;asset&quot;:{&quot;generator&quot;:&quot;Sketchfab (OSG glTF plugin)&quot;,&quot;version&quot;:&quot;2.0&quot;},&quot;bufferViews&quot;:[{&quot;buffer&quot;:0,&quot;byteLength&quot;:3115560,&quot;byteOffset&quot;:0,&quot;name&quot;:&quot;ScalarBufferView&quot;,&quot;target&quot;:34962},{&quot;buffer&quot;:0,&quot;byteLength&quot;:18352,&quot;byteOffset&quot;:3115560,&quot;byteStride&quot;:8,&quot;name&quot;:&quot;Vec2BufferView&quot;,&quot;target&quot;:34962},{&quot;buffer&quot;:0,&quot;byteLength&quot;:4609704,&quot;byteOffset&quot;:3133912,&quot;byteStride&quot;:12,&quot;name&quot;:&quot;Vec3BufferView&quot;,&quot;target&quot;:34962},{&quot;buffer&quot;:0,&quot;byteLength&quot;:3073136,&quot;byteOffset&quot;:7743616,&quot;byteStride&quot;:16,&quot;name&quot;:&quot;Vec4BufferView&quot;,&quot;target&quot;:34962}],&quot;buffers&quot;:[{&quot;byteLength&quot;:10816752,&quot;uri&quot;:&quot;scene.bin&quot;}],&quot;images&quot;:[{&quot;uri&quot;:&quot;textures\/pedales_baseColor.jpg&quot;}],&quot;materials&quot;:[{&quot;doubleSided&quot;:true,&quot;name&quot;:&quot;white_wings&quot;,&quot;pbrMetallicRoughness&quot;:{&quot;baseColorFactor&quot;:[1,1,1,1],&quot;metallicFactor&quot;:0,&quot;roughnessFactor&quot;:0.80000000000000004}},{&quot;doubleSided&quot;:true,&quot;emissiveFactor&quot;:[0,0,0],&quot;name&quot;:&quot;metal&quot;,&quot;pbrMetallicRoughness&quot;:{&quot;baseColorFactor&quot;:[0.80149453879999999,0.80149453879999999,0.80149453879999999,1],&quot;metallicFactor&quot;:1,&quot;roughnessFactor&quot;:0.20000000000000001}},{&quot;doubleSided&quot;:true,&quot;emissiveFactor&quot;:[0,0,0],&quot;name&quot;:&quot;body&quot;,&quot;pbrMetallicRoughness&quot;:{&quot;baseColorFactor&quot;:[0.8373390436,0.0031678875,0.0031678875,1],&quot;metallicFactor&quot;:0,&quot;roughnessFactor&quot;:0.52000000000000002}},{&quot;doubleSided&quot;:true,&quot;name&quot;:&quot;grey&quot;,&quot;pbrMetallicRoughness&quot;:{&quot;baseColorFactor&quot;:[0.034218423099999999,0.034218423099999999,0.034218423099999999,1],&quot;metallicFactor&quot;:0.40000000000000002,&quot;roughnessFactor&quot;:0.79000000000000004}},{&quot;doubleSided&quot;:true,&quot;emissiveFactor&quot;:[0,0,0],&quot;name&quot;:&quot;gear_grey&quot;,&quot;pbrMetallicRoughness&quot;:{&quot;baseColorFactor&quot;:[0.4404641688,0.4404641688,0.4404641688,1],&quot;metallicFactor&quot;:0,&quot;roughnessFactor&quot;:0.20000000000000001}},{&quot;doubleSided&quot;:true,&quot;emissiveFactor&quot;:[0,0,0],&quot;name&quot;:&quot;blue_gears&quot;,&quot;pbrMetallicRoughness&quot;:{&quot;baseColorFactor&quot;:[0.020098257800000002,0.0386517979,0.63580715659999998,1],&quot;metallicFactor&quot;:0,&quot;roughnessFactor&quot;:0.27000000000000002}},{&quot;doubleSided&quot;:true,&quot;emissiveFactor&quot;:[0,0,0],&quot;name&quot;:&quot;gear&quot;,&quot;pbrMetallicRoughness&quot;:{&quot;baseColorFactor&quot;:[0.1827273667,0.1827273667,0.1827273667,1],&quot;metallicFactor&quot;:0.51000000000000001,&quot;roughnessFactor&quot;:0.41999999999999998}},{&quot;doubleSided&quot;:true,&quot;emissiveFactor&quot;:[0,0,0],&quot;name&quot;:&quot;pedales&quot;,&quot;pbrMetallicRoughness&quot;:{&quot;baseColorFactor&quot;:[1,1,1,1],&quot;baseColorTexture&quot;:{&quot;index&quot;:0,&quot;texCoord&quot;:0},&quot;metallicFactor&quot;:0.25,&quot;roughnessFactor&quot;:0.54000000000000004}},{&quot;doubleSided&quot;:true,&quot;emissiveFactor&quot;:[0,0,0],&quot;name&quot;:&quot;courroie&quot;,&quot;pbrMetallicRoughness&quot;:{&quot;baseColorFactor&quot;:[0,0,0,1],&quot;metallicFactor&quot;:0,&quot;roughnessFactor&quot;:0.28999999999999998}}],&quot;meshes&quot;:[{&quot;name&quot;:&quot;GeodeComposant16Solid5&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:1,&quot;POSITION&quot;:0,&quot;TANGENT&quot;:2},&quot;indices&quot;:3,&quot;material&quot;:8,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant16Solid11&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:5,&quot;POSITION&quot;:4,&quot;TANGENT&quot;:6},&quot;indices&quot;:7,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant15Solid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:9,&quot;POSITION&quot;:8,&quot;TANGENT&quot;:10},&quot;indices&quot;:11,&quot;material&quot;:6,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant16Solid3&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:13,&quot;POSITION&quot;:12,&quot;TANGENT&quot;:14},&quot;indices&quot;:15,&quot;material&quot;:3,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant16Solid9&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:17,&quot;POSITION&quot;:16,&quot;TANGENT&quot;:18},&quot;indices&quot;:19,&quot;material&quot;:3,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant17Solid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:21,&quot;POSITION&quot;:20,&quot;TANGENT&quot;:22},&quot;indices&quot;:23,&quot;material&quot;:2,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant18Solid2&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:25,&quot;POSITION&quot;:24,&quot;TANGENT&quot;:26},&quot;indices&quot;:27,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeFootSolid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:29,&quot;POSITION&quot;:28,&quot;TANGENT&quot;:30},&quot;indices&quot;:31,&quot;material&quot;:2,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant18Solid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:33,&quot;POSITION&quot;:32,&quot;TANGENT&quot;:34},&quot;indices&quot;:35,&quot;material&quot;:2,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant19Solid2&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:37,&quot;POSITION&quot;:36,&quot;TANGENT&quot;:38},&quot;indices&quot;:39,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeFoot2Solid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:41,&quot;POSITION&quot;:40,&quot;TANGENT&quot;:42},&quot;indices&quot;:43,&quot;material&quot;:2,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant19Solid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:45,&quot;POSITION&quot;:44,&quot;TANGENT&quot;:46},&quot;indices&quot;:47,&quot;material&quot;:2,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant14Solid3&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:49,&quot;POSITION&quot;:48,&quot;TANGENT&quot;:50},&quot;indices&quot;:51,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeSolide2Solid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:53,&quot;POSITION&quot;:52,&quot;TANGENT&quot;:54},&quot;indices&quot;:55,&quot;material&quot;:3,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant14Solid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:57,&quot;POSITION&quot;:56,&quot;TANGENT&quot;:58},&quot;indices&quot;:59,&quot;material&quot;:0,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant11Solid2&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:61,&quot;POSITION&quot;:60,&quot;TANGENT&quot;:62},&quot;indices&quot;:63,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant14Solid2&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:65,&quot;POSITION&quot;:64,&quot;TANGENT&quot;:66},&quot;indices&quot;:67,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant11Solid3&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:69,&quot;POSITION&quot;:68,&quot;TANGENT&quot;:70},&quot;indices&quot;:71,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant11Solid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:73,&quot;POSITION&quot;:72,&quot;TANGENT&quot;:74},&quot;indices&quot;:75,&quot;material&quot;:3,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant12Solid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:77,&quot;POSITION&quot;:76,&quot;TANGENT&quot;:78},&quot;indices&quot;:79,&quot;material&quot;:0,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant13Solid3&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:81,&quot;POSITION&quot;:80,&quot;TANGENT&quot;:82},&quot;indices&quot;:83,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeSolideSolid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:85,&quot;POSITION&quot;:84,&quot;TANGENT&quot;:86},&quot;indices&quot;:87,&quot;material&quot;:3,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant13Solid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:89,&quot;POSITION&quot;:88,&quot;TANGENT&quot;:90},&quot;indices&quot;:91,&quot;material&quot;:0,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant7Solid3&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:93,&quot;POSITION&quot;:92,&quot;TANGENT&quot;:94},&quot;indices&quot;:95,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant13Solid2&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:97,&quot;POSITION&quot;:96,&quot;TANGENT&quot;:98},&quot;indices&quot;:99,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant7Solid2&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:101,&quot;POSITION&quot;:100,&quot;TANGENT&quot;:102},&quot;indices&quot;:103,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant7Solid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:105,&quot;POSITION&quot;:104,&quot;TANGENT&quot;:106},&quot;indices&quot;:107,&quot;material&quot;:3,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant8Solid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:109,&quot;POSITION&quot;:108,&quot;TANGENT&quot;:110},&quot;indices&quot;:111,&quot;material&quot;:0,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant15Solid3&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:113,&quot;POSITION&quot;:112,&quot;TANGENT&quot;:115,&quot;TEXCOORD_0&quot;:114},&quot;indices&quot;:116,&quot;material&quot;:7,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant15Solid2&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:118,&quot;POSITION&quot;:117,&quot;TANGENT&quot;:120,&quot;TEXCOORD_0&quot;:119},&quot;indices&quot;:121,&quot;material&quot;:7,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeCorpsSolid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:123,&quot;POSITION&quot;:122,&quot;TANGENT&quot;:124},&quot;indices&quot;:125,&quot;material&quot;:6,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant9Solid4&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:127,&quot;POSITION&quot;:126,&quot;TANGENT&quot;:128},&quot;indices&quot;:129,&quot;material&quot;:4,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant9Solid3&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:131,&quot;POSITION&quot;:130,&quot;TANGENT&quot;:132},&quot;indices&quot;:133,&quot;material&quot;:5,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant6Solid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:135,&quot;POSITION&quot;:134,&quot;TANGENT&quot;:136},&quot;indices&quot;:137,&quot;material&quot;:5,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant6Solid2&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:139,&quot;POSITION&quot;:138,&quot;TANGENT&quot;:140},&quot;indices&quot;:141,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant6Solid3&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:143,&quot;POSITION&quot;:142,&quot;TANGENT&quot;:144},&quot;indices&quot;:145,&quot;material&quot;:5,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant9Solid2&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:147,&quot;POSITION&quot;:146,&quot;TANGENT&quot;:148},&quot;indices&quot;:149,&quot;material&quot;:5,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant10Solid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:151,&quot;POSITION&quot;:150,&quot;TANGENT&quot;:152},&quot;indices&quot;:153,&quot;material&quot;:5,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant10Solid2&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:155,&quot;POSITION&quot;:154,&quot;TANGENT&quot;:156},&quot;indices&quot;:157,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant10Solid3&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:159,&quot;POSITION&quot;:158,&quot;TANGENT&quot;:160},&quot;indices&quot;:161,&quot;material&quot;:5,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant9Solid5&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:163,&quot;POSITION&quot;:162,&quot;TANGENT&quot;:164},&quot;indices&quot;:165,&quot;material&quot;:4,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant17Solid4&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:167,&quot;POSITION&quot;:166,&quot;TANGENT&quot;:168},&quot;indices&quot;:169,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant17Solid2&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:171,&quot;POSITION&quot;:170,&quot;TANGENT&quot;:172},&quot;indices&quot;:173,&quot;material&quot;:2,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant17Solid3&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:175,&quot;POSITION&quot;:174,&quot;TANGENT&quot;:176},&quot;indices&quot;:177,&quot;material&quot;:2,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant16Solid8&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:179,&quot;POSITION&quot;:178,&quot;TANGENT&quot;:180},&quot;indices&quot;:181,&quot;material&quot;:3,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant16Solid10&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:183,&quot;POSITION&quot;:182,&quot;TANGENT&quot;:184},&quot;indices&quot;:185,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant16Solid7&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:187,&quot;POSITION&quot;:186,&quot;TANGENT&quot;:188},&quot;indices&quot;:189,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant16Solid12&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:191,&quot;POSITION&quot;:190,&quot;TANGENT&quot;:192},&quot;indices&quot;:193,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant9Solid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:195,&quot;POSITION&quot;:194,&quot;TANGENT&quot;:196},&quot;indices&quot;:197,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant16Solid6&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:199,&quot;POSITION&quot;:198,&quot;TANGENT&quot;:200},&quot;indices&quot;:201,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant16Solid2&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:203,&quot;POSITION&quot;:202,&quot;TANGENT&quot;:204},&quot;indices&quot;:205,&quot;material&quot;:3,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant17Solid6&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:207,&quot;POSITION&quot;:206,&quot;TANGENT&quot;:208},&quot;indices&quot;:209,&quot;material&quot;:2,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant16Solid1&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:211,&quot;POSITION&quot;:210,&quot;TANGENT&quot;:212},&quot;indices&quot;:213,&quot;material&quot;:0,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant17Solid5&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:215,&quot;POSITION&quot;:214,&quot;TANGENT&quot;:216},&quot;indices&quot;:217,&quot;material&quot;:1,&quot;mode&quot;:4}]},{&quot;name&quot;:&quot;GeodeComposant16Solid4&quot;,&quot;primitives&quot;:[{&quot;attributes&quot;:{&quot;NORMAL&quot;:219,&quot;POSITION&quot;:218,&quot;TANGENT&quot;:220},&quot;indices&quot;:221,&quot;material&quot;:0,&quot;mode&quot;:4}]}],&quot;nodes&quot;:[{&quot;children&quot;:[1],&quot;name&quot;:&quot;RootNode (gltf orientation matrix)&quot;,&quot;rotation&quot;:[-0.70710678118654746,-0,-0,0.70710678118654757]},{&quot;children&quot;:[2],&quot;name&quot;:&quot;RootNode (model correction matrix)&quot;},{&quot;children&quot;:[3,5,7,9,11,13,15,17,24,26,33,35,42,44,45,47,49,50,57,59,66,68,70,72,73,80,81,82,84,86,88,90,92,93,95,97,99,101,102,104,106,108,110,112,114,116,118,120,122,124,126,128,130,132,134,136],&quot;name&quot;:&quot;Root&quot;},{&quot;children&quot;:[4],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,0,-1,-5,1],&quot;name&quot;:&quot;Composant16Solid5&quot;},{&quot;mesh&quot;:0,&quot;name&quot;:&quot;GeodeComposant16Solid5&quot;},{&quot;children&quot;:[6],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,0.0034300000000000012,5.3397300000000003,0.36251000000000005,1],&quot;name&quot;:&quot;Composant16Solid11&quot;},{&quot;mesh&quot;:1,&quot;name&quot;:&quot;GeodeComposant16Solid11&quot;},{&quot;children&quot;:[8],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,0,-1,-5,1],&quot;name&quot;:&quot;Composant15Solid1&quot;},{&quot;mesh&quot;:2,&quot;name&quot;:&quot;GeodeComposant15Solid1&quot;},{&quot;children&quot;:[10],&quot;matrix&quot;:[0.10000000149011612,0,0,0,0,0.10000000149011612,0,0,0,0,0.10000000149011612,0,0.0033899999689310789,2.5187399387359619,1.210610032081604,1],&quot;name&quot;:&quot;structure_tail&quot;},{&quot;mesh&quot;:3,&quot;name&quot;:&quot;GeodeComposant16Solid3&quot;},{&quot;children&quot;:[12],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,0,-1,-5,1],&quot;name&quot;:&quot;Composant16Solid9&quot;},{&quot;mesh&quot;:4,&quot;name&quot;:&quot;GeodeComposant16Solid9&quot;},{&quot;children&quot;:[14],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,0,-1,-5,1],&quot;name&quot;:&quot;Composant17Solid1&quot;},{&quot;mesh&quot;:5,&quot;name&quot;:&quot;GeodeComposant17Solid1&quot;},{&quot;children&quot;:[16],&quot;matrix&quot;:[0.099951245375342682,0.0020764110124944879,0.0023318154404788666,0,-0.0020630843045894528,0.099976952303489144,-0.00059412901060380439,0,-0.0023436145360149758,0.00054573201873815052,0.09997104553566262,0,1.0343799591064453,1.2387700080871582,1.0750199556350708,1],&quot;name&quot;:&quot;Composant18Solid2&quot;},{&quot;mesh&quot;:6,&quot;name&quot;:&quot;GeodeComposant18Solid2&quot;},{&quot;children&quot;:[18],&quot;matrix&quot;:[1,0,0,0,0,-1,-0,0,0,0,-1,0,0.0021300000000000004,1.3011299999999999,3.4748299999999999,1],&quot;name&quot;:&quot;Right leg&quot;},{&quot;children&quot;:[19,22],&quot;matrix&quot;:[0.99990999999999997,-0.00018000000000000007,-0.013370000000000003,0,0.013370000000000003,0.013550000000000003,0.99982000000000004,0,0,-0.99990999999999997,0.013550000000000003,0,1.0718799999999999,0,0,1],&quot;name&quot;:&quot;Bone_Right_leg&quot;},{&quot;children&quot;:[20],&quot;matrix&quot;:[0.99982000000000004,0.013260000000000003,0.013780000000000004,0,0.0099100000000000021,0.25718000000000002,-0.96631,0,-0.016350000000000007,0.96627000000000007,0.25701000000000002,0,0,2.3922699999999995,0,1],&quot;name&quot;:&quot;Bone.R_Right_leg&quot;},{&quot;children&quot;:[21],&quot;matrix&quot;:[0.099920000000000037,-0.003360000000000001,-0.0021100000000000003,0,-0.0027500000000000007,-0.096940000000000026,0.024370000000000006,0,-0.002860000000000001,-0.024300000000000006,-0.096960000000000032,0,-0.071379999999999999,0.031560000000000005,0.00085000000000000028,1],&quot;name&quot;:&quot;FootSolid1&quot;},{&quot;mesh&quot;:7,&quot;name&quot;:&quot;GeodeFootSolid1&quot;},{&quot;children&quot;:[23],&quot;matrix&quot;:[0.099970000000000031,-0.0010200000000000003,0.0020500000000000006,0,-0.0020500000000000006,-0.00079000000000000023,0.099980000000000027,0,-0.0010100000000000003,-0.099990000000000037,-0.00081000000000000028,0,-1.0715999999999999,0.010960000000000001,-0.021920000000000005,1],&quot;name&quot;:&quot;Composant18Solid1&quot;},{&quot;mesh&quot;:8,&quot;name&quot;:&quot;GeodeComposant18Solid1&quot;},{&quot;children&quot;:[25],&quot;matrix&quot;:[0.10000000149011612,0,0,0,0,0.10000000147011612,-2.0000000296023233e-06,0,0,2.0000000296023233e-06,0.10000000147011612,0,-0.97141999006271362,0.56780999898910522,1.1917099952697754,1],&quot;name&quot;:&quot;Composant19Solid2&quot;},{&quot;mesh&quot;:9,&quot;name&quot;:&quot;GeodeComposant19Solid2&quot;},{&quot;children&quot;:[27],&quot;matrix&quot;:[1,0,0,0,0,-1,-0,0,0,0,-1,0,-1.1565100000000001,-1.4362299999999999,3.0984499999999997,1],&quot;name&quot;:&quot;Left leg&quot;},{&quot;children&quot;:[28,31],&quot;matrix&quot;:[1,0,0,0,0,0.30427000000000004,0.95259000000000005,0,0,-0.95259000000000005,0.30427000000000004,0,0,-2.7387000000000001,-0.37854000000000004,1],&quot;name&quot;:&quot;Bone_Left_leg&quot;},{&quot;children&quot;:[29],&quot;matrix&quot;:[-1,0,0,0,0,-0.43619000000000002,-0.8998600000000001,0,0,-0.8998600000000001,0.43619000000000002,0,0,2.39811,0,1],&quot;name&quot;:&quot;Bone.L_Left_leg&quot;},{&quot;children&quot;:[30],&quot;matrix&quot;:[-0.10000000000000001,0,0,0,0,-0.072550000000000003,0.06882000000000002,0,0,0.06882000000000002,0.072550000000000003,0,-0.18509000000000003,0.003010000000000001,-0.0040600000000000011,1],&quot;name&quot;:&quot;Foot2Solid1&quot;},{&quot;mesh&quot;:10,&quot;name&quot;:&quot;GeodeFoot2Solid1&quot;},{&quot;children&quot;:[32],&quot;matrix&quot;:[0.10000000000000001,0,0,0,-0,-0.030430000000000006,0.095260000000000039,0,0,-0.095260000000000039,-0.030430000000000006,0,1.1586400000000001,0.0024600000000000008,-0.00062000000000000022,1],&quot;name&quot;:&quot;Composant19Solid1&quot;},{&quot;mesh&quot;:11,&quot;name&quot;:&quot;GeodeComposant19Solid1&quot;},{&quot;children&quot;:[34],&quot;matrix&quot;:[0.099860272490075869,0.0052842688252502778,5.2718246462140111e-05,0,-0.0052839961861477509,0.099859385592995356,-0.00042754101262101212,0,-7.5236532336473929e-05,0.00042415798375726254,0.099999073633170441,0,11.253769874572754,5.5055198669433594,4.6063499450683594,1],&quot;name&quot;:&quot;Composant14Solid3&quot;},{&quot;mesh&quot;:12,&quot;name&quot;:&quot;GeodeComposant14Solid3&quot;},{&quot;children&quot;:[36],&quot;matrix&quot;:[1,0,0,0,0,1,0,0,0,0,1,0,10.709069999999999,5.5802100000000001,5.6026499999999997,1],&quot;name&quot;:&quot;Wing_Right&quot;},{&quot;children&quot;:[37,40],&quot;matrix&quot;:[-0.88648000000000005,0,-0.46276,0,0.46276,0,-0.88648000000000005,0,0,-1,0,0,0,0,0,1],&quot;name&quot;:&quot;Bone_Wing_Right&quot;},{&quot;children&quot;:[38],&quot;matrix&quot;:[0,0,-1,0,0.89987000000000017,-0.43615000000000004,0,0,-0.43615000000000004,-0.89987000000000017,0,0,0,1.13289,0,1],&quot;name&quot;:&quot;Bone.001_Wing_Right&quot;},{&quot;children&quot;:[39],&quot;matrix&quot;:[0.0052800000000000008,-0.099820000000000034,-0.0029200000000000007,0,0.099860000000000032,0.0053000000000000009,-0.00027000000000000011,0,0.00043000000000000015,-0.0029000000000000007,0.099960000000000035,0,0,9.8243299999999998,-0,1],&quot;name&quot;:&quot;Solide2Solid1&quot;},{&quot;mesh&quot;:13,&quot;name&quot;:&quot;GeodeSolide2Solid1&quot;},{&quot;children&quot;:[41],&quot;matrix&quot;:[-0.089470000000000022,0.044590000000000012,-0.0025600000000000006,0,0.0024600000000000008,-0.00080000000000000026,-0.099970000000000031,0,-0.044600000000000015,-0.089500000000000024,-0.00038000000000000013,0,-0,-0,-0,1],&quot;name&quot;:&quot;Composant14Solid1&quot;},{&quot;mesh&quot;:14,&quot;name&quot;:&quot;GeodeComposant14Solid1&quot;},{&quot;children&quot;:[43],&quot;matrix&quot;:[0.099999772190618855,0.00021400777078821811,7.7795629433175391e-06,0,-0.00021399129082435041,0.099999560331083356,-0.00020600810832746853,0,-8.2204019767784856e-06,0.00020599098836500401,0.099999788990582025,0,0.94805002212524414,6.0107698440551758,5.5175299644470215,1],&quot;name&quot;:&quot;Composant11Solid2&quot;},{&quot;mesh&quot;:15,&quot;name&quot;:&quot;GeodeComposant11Solid2&quot;},{&quot;matrix&quot;:[0.99999770700506152,0.0021400776759925386,7.7795628273930192e-05,0,-0.0021399128763563173,0.99999558840973812,-0.0020600810525770855,0,-8.2204018542849521e-05,0.0020599098529549913,0.99999787500469073,0,10.710009574890137,5.5956501960754395,5.6040802001953125,1],&quot;name&quot;:&quot;Empty wing R&quot;},{&quot;children&quot;:[46],&quot;matrix&quot;:[0.099999772190618855,0.00021400777078821811,7.7795629433175391e-06,0,-0.00021399129082435041,0.099999560331083356,-0.00020600810832746853,0,-8.2204019767784856e-06,0.00020599098836500401,0.099999788990582025,0,10.710009574890137,5.5956501960754395,5.6040802001953125,1],&quot;name&quot;:&quot;Composant14Solid2&quot;},{&quot;mesh&quot;:16,&quot;name&quot;:&quot;GeodeComposant14Solid2&quot;},{&quot;children&quot;:[48],&quot;matrix&quot;:[0.099999834431083942,0.00017412387124839397,5.5611657825052114e-05,0,-0.00017387411269531987,0.099998855536754971,-0.00044604613592147738,0,-5.6387693329246595e-05,0.00044594869648597311,0.099998991235968823,0,1.4084500074386597,6.0811700820922852,4.3032999038696289,1],&quot;name&quot;:&quot;Composant11Solid3&quot;},{&quot;mesh&quot;:17,&quot;name&quot;:&quot;GeodeComposant11Solid3&quot;},{&quot;matrix&quot;:[0.99999832940970312,0.0017412386865374614,0.00055611656996373848,0,-0.0017387411010439374,0.99998854046655927,-0.0044604612927487209,0,-0.00056387692489004502,0.004459486898408198,0.99998989745867761,0,1.4084500074386597,6.0811600685119629,4.3032999038696289,1],&quot;name&quot;:&quot;Empty WR&quot;},{&quot;children&quot;:[51],&quot;matrix&quot;:[1,0,0,0,0,1,0,0,0,0,1,0,3.9307599999999998,6.0444699999999996,5.125799999999999,1],&quot;name&quot;:&quot;Wing_R&quot;},{&quot;children&quot;:[52,55],&quot;matrix&quot;:[0.13646000000000003,0,0.99064000000000008,0,-0.99062000000000006,0.006380000000000002,0.13646000000000003,0,-0.0063200000000000018,-0.99997999999999998,0.00087000000000000033,0,0,0,0,1],&quot;name&quot;:&quot;bone_Wing_R&quot;},{&quot;children&quot;:[53],&quot;matrix&quot;:[0.0050900000000000008,-0.004830000000000001,0.99997999999999998,0,-0.95655999999999997,-0.29151000000000005,0.0034700000000000013,0,0.29149000000000003,-0.95655999999999997,-0.0061000000000000021,0,0,3.0232000000000001,0,1],&quot;name&quot;:&quot;Bone.001_Wing_R&quot;},{&quot;children&quot;:[54],&quot;matrix&quot;:[-0.00026000000000000009,0.015770000000000003,0.098750000000000032,0,-0.10000000000000001,-0.00012000000000000004,-0.00024000000000000009,0,8.0000000000000034e-05,-0.098750000000000032,0.015770000000000003,0,7.0633499999999998,10.267659999999999,-2.5686100000000001,1],&quot;name&quot;:&quot;Composant11Solid1&quot;},{&quot;mesh&quot;:18,&quot;name&quot;:&quot;GeodeComposant11Solid1&quot;},{&quot;children&quot;:[56],&quot;matrix&quot;:[0.013650000000000002,-0.099060000000000037,-0.00085000000000000028,0,-0.00023000000000000006,0.00082000000000000031,-0.10000000000000001,0,0.099060000000000037,0.013650000000000002,-0.00012000000000000004,0,0.0068300000000000019,-0.024080000000000004,2.9320099999999996,1],&quot;name&quot;:&quot;Composant12Solid1&quot;},{&quot;mesh&quot;:19,&quot;name&quot;:&quot;GeodeComposant12Solid1&quot;},{&quot;children&quot;:[58],&quot;matrix&quot;:[0.09998517744999158,0.0017062155441228384,0.00023112082103649465,0,-0.001709568406768747,0.099973587771712558,0.0015360409947297162,0,-0.00020485160360891839,-0.0015397644598787483,0.099987936568627214,0,-11.216850280761719,5.3817000389099121,4.5803298950195312,1],&quot;name&quot;:&quot;Composant13Solid3&quot;},{&quot;mesh&quot;:20,&quot;name&quot;:&quot;GeodeComposant13Solid3&quot;},{&quot;children&quot;:[60],&quot;matrix&quot;:[0.99987486864120578,0.015770536006762502,0.0012398603917139735,0,-0.015787560001156498,0.99975997587903997,0.015190246197851929,0,-0.001000004470698528,-0.015207919792032015,0.99988385283824721,0,-10.708510398864746,6.0012998580932617,5.5981597900390625,1],&quot;name&quot;:&quot;WIng_Left&quot;},{&quot;children&quot;:[61,64],&quot;matrix&quot;:[-0.88712000000000013,0,0.46153,0,-0.46153,0,-0.88712000000000013,0,0,-1,0,0,0,0,0,1],&quot;name&quot;:&quot;Wing_Left_WIng_Left&quot;},{&quot;children&quot;:[62],&quot;matrix&quot;:[0,0,1,0,-0.90034999999999998,-0.43517000000000006,0,0,0.43517000000000006,-0.90034999999999998,0,0,0,1.1326500000000002,0,1],&quot;name&quot;:&quot;Bone.001_WIng_Left&quot;},{&quot;children&quot;:[63],&quot;matrix&quot;:[-0.00027000000000000011,0.099950000000000025,0.003010000000000001,0,-0.10000000000000001,-0.00027000000000000011,1.0000000000000004e-05,0,2.0000000000000008e-05,-0.003010000000000001,0.099950000000000025,0,0.30636000000000008,3.9284699999999999,0.0021700000000000005,1],&quot;name&quot;:&quot;SolideSolid1&quot;},{&quot;mesh&quot;:21,&quot;name&quot;:&quot;GeodeSolideSolid1&quot;},{&quot;children&quot;:[65],&quot;matrix&quot;:[-0.08866000000000003,-0.046250000000000013,-0.00013000000000000004,0,0.00013000000000000004,4.0000000000000017e-05,-0.10000000000000001,0,0.046250000000000013,-0.08866000000000003,2.0000000000000008e-05,0,-0.00067000000000000024,-0.00024000000000000009,0.53078000000000003,1],&quot;name&quot;:&quot;Composant13Solid1&quot;},{&quot;mesh&quot;:22,&quot;name&quot;:&quot;GeodeComposant13Solid1&quot;},{&quot;children&quot;:[67],&quot;matrix&quot;:[0.099991640518475949,0.001292691036295212,-3.2777000846487934e-05,0,-0.0012909176611002218,0.099937731356560644,0.0032838515373569076,0,7.520664440068964e-05,-0.0032831538513788542,0.099946063167950946,0,-1.4079400300979614,6.1640100479125977,4.3147501945495605,1],&quot;name&quot;:&quot;Composant7Solid3&quot;},{&quot;mesh&quot;:23,&quot;name&quot;:&quot;GeodeComposant7Solid3&quot;},{&quot;children&quot;:[69],&quot;matrix&quot;:[0.099987488354050233,0.0015770536241761801,0.00012398604101893331,0,-0.0015787560236409474,0.099975999077662456,0.0015190246424204236,0,-0.00010000044855997559,-0.0015207920018647679,0.099988386773767771,0,-10.700130462646484,5.4706401824951172,5.5900998115539551,1],&quot;name&quot;:&quot;Composant13Solid2&quot;},{&quot;mesh&quot;:24,&quot;name&quot;:&quot;GeodeComposant13Solid2&quot;},{&quot;children&quot;:[71],&quot;matrix&quot;:[0.099987488354050233,0.0015770536241761801,0.00012398604101893331,0,-0.0015787560236409474,0.099975999077662456,0.0015190246424204236,0,-0.00010000044855997559,-0.0015207920018647679,0.099988386773767771,0,-0.94673001766204834,6.054689884185791,5.5226998329162598,1],&quot;name&quot;:&quot;Composant7Solid2&quot;},{&quot;mesh&quot;:25,&quot;name&quot;:&quot;GeodeComposant7Solid2&quot;},{&quot;matrix&quot;:[0.99987486864120578,0.015770536006762502,0.0012398603917139735,0,-0.015787560001156498,0.99975997587903997,0.015190246197851929,0,-0.001000004470698528,-0.015207919792032015,0.99988385283824721,0,-10.700130462646484,5.4706401824951172,5.5900998115539551,1],&quot;name&quot;:&quot;Empty.WL&quot;},{&quot;children&quot;:[74],&quot;matrix&quot;:[1,0,0,0,0,1,0,0,0,0,1,0,-3.9263300000000001,6.4269799999999995,5.1252399999999998,1],&quot;name&quot;:&quot;Wing_L&quot;},{&quot;children&quot;:[75,78],&quot;matrix&quot;:[0.13077,0,-0.9914099999999999,0,0.9914099999999999,0.0039400000000000008,0.13077,0,0.0039100000000000011,-0.99999000000000005,0.00051000000000000015,0,0,-0.55740000000000001,0,1],&quot;name&quot;:&quot;Bone_Wing_L&quot;},{&quot;children&quot;:[76],&quot;matrix&quot;:[-0.0017500000000000007,0.0044600000000000013,-0.99999000000000005,0,0.95843,-0.28530000000000005,-0.0029500000000000008,0,-0.28531000000000006,-0.95843,-0.0037700000000000012,0,0,3.0096599999999998,0,1],&quot;name&quot;:&quot;Bone.001_Wing_L&quot;},{&quot;children&quot;:[77],&quot;matrix&quot;:[0.0013200000000000004,-0.015720000000000001,-0.098750000000000032,0,0.099940000000000029,-0.002860000000000001,0.0017900000000000006,0,-0.0031000000000000008,-0.098720000000000044,0.015670000000000003,0,-6.4976600000000007,10.427919999999999,-2.7008300000000003,1],&quot;name&quot;:&quot;Composant7Solid1&quot;},{&quot;mesh&quot;:26,&quot;name&quot;:&quot;GeodeComposant7Solid1&quot;},{&quot;children&quot;:[79],&quot;matrix&quot;:[0.012950000000000001,0.09915000000000003,-0.0011900000000000003,0,-0.0017100000000000006,-0.00097000000000000038,-0.099980000000000027,0,-0.099140000000000034,0.012970000000000002,0.0015700000000000004,0,0.047400000000000005,0.026910000000000007,2.7687300000000006,1],&quot;name&quot;:&quot;Composant8Solid1&quot;},{&quot;mesh&quot;:27,&quot;name&quot;:&quot;GeodeComposant8Solid1&quot;},{&quot;matrix&quot;:[1,0,0,0,0,0.94999998807907104,0,0,0,0,0.94999998807907104,0,0.9557499885559082,-1.4230799674987793,0.47227001190185547,1],&quot;name&quot;:&quot;Empty Foot_R&quot;},{&quot;matrix&quot;:[1,0,0,0,0,0.9024999737739563,0,0,0,0,0.9024999737739563,0,-1.1565099954605103,-1.4363800287246704,2.9672000408172607,1],&quot;name&quot;:&quot;Empty Foot_L&quot;},{&quot;children&quot;:[83],&quot;matrix&quot;:[0.10000000149011612,0,0,0,0,0.090250000357627869,0,0,0,0,0.090250000357627869,0,0.00031999999191612005,-1.4377399682998657,1.7522399425506592,1],&quot;name&quot;:&quot;Composant15Solid3&quot;},{&quot;mesh&quot;:28,&quot;name&quot;:&quot;GeodeComposant15Solid3&quot;},{&quot;children&quot;:[85],&quot;matrix&quot;:[0.10000000149011612,0,0,0,0,0.094999998807907104,0,0,0,0,0.094999998807907104,0,0.00031999999191612005,-1.4377399682998657,1.7522399425506592,1],&quot;name&quot;:&quot;Composant15Solid2&quot;},{&quot;mesh&quot;:29,&quot;name&quot;:&quot;GeodeComposant15Solid2&quot;},{&quot;children&quot;:[87],&quot;matrix&quot;:[0.10000000149011612,0,0,0,0,0.10000000149011612,0,0,0,0,0.10000000149011612,0,-0.00052000000141561031,3.0333099365234375,1.9316400289535522,1],&quot;name&quot;:&quot;CorpsSolid1&quot;},{&quot;mesh&quot;:30,&quot;name&quot;:&quot;GeodeCorpsSolid1&quot;},{&quot;children&quot;:[89],&quot;matrix&quot;:[0.10000000149011612,0,0,0,0,-0.018738329597166502,-0.098228688792690186,0,0,0.098228688792690186,-0.018738329597166502,0,0,-1.7685600519180298,8.2261295318603516,1],&quot;name&quot;:&quot;Composant9Solid4&quot;},{&quot;mesh&quot;:31,&quot;name&quot;:&quot;GeodeComposant9Solid4&quot;},{&quot;children&quot;:[91],&quot;matrix&quot;:[0.10000000149011612,0,0,0,0,0.10000000149011612,0,0,0,0,0.10000000149011612,0,0.007890000008046627,4.0852999687194824,1.9304499626159668,1],&quot;name&quot;:&quot;Composant9Solid3&quot;},{&quot;mesh&quot;:32,&quot;name&quot;:&quot;GeodeComposant9Solid3&quot;},{&quot;matrix&quot;:[-0.44406402886150675,0,0.895995054825241,0,0,1,0,0,-0.895995054825241,0,-0.44406402886150675,0,-1.3933999538421631,5.7583198547363281,2.6817800998687744,1],&quot;name&quot;:&quot;EmptyL&quot;},{&quot;children&quot;:[94],&quot;matrix&quot;:[0.10000000149011612,0,0,0,0,0.10000000149011612,0,0,0,0,0.10000000149011612,0,-2.2287900447845459,4.0862197875976562,1.9317300319671631,1],&quot;name&quot;:&quot;Composant6Solid1&quot;},{&quot;mesh&quot;:33,&quot;name&quot;:&quot;GeodeComposant6Solid1&quot;},{&quot;children&quot;:[96],&quot;matrix&quot;:[0.10000000149011612,0,0,0,0,0.10000000149011612,0,0,0,0,0.10000000149011612,0,-2.2287900447845459,4.0862197875976562,1.9317300319671631,1],&quot;name&quot;:&quot;Composant6Solid2&quot;},{&quot;mesh&quot;:34,&quot;name&quot;:&quot;GeodeComposant6Solid2&quot;},{&quot;children&quot;:[98],&quot;matrix&quot;:[0.10000000149011612,0,0,0,0,0.10000000149011612,0,0,0,0,0.10000000149011612,0,-2.2287900447845459,4.0862197875976562,1.9317300319671631,1],&quot;name&quot;:&quot;Composant6Solid3&quot;},{&quot;mesh&quot;:35,&quot;name&quot;:&quot;GeodeComposant6Solid3&quot;},{&quot;children&quot;:[100],&quot;matrix&quot;:[0.10000000149011612,0,0,0,0,0.10000000149011612,0,0,0,0,0.10000000149011612,0,0.007890000008046627,4.0852999687194824,1.9304499626159668,1],&quot;name&quot;:&quot;Composant9Solid2&quot;},{&quot;mesh&quot;:36,&quot;name&quot;:&quot;GeodeComposant9Solid2&quot;},{&quot;matrix&quot;:[1,0,0,0,0,1,0,0,0,0,1,0,1.3928500413894653,6.0658397674560547,2.6770598888397217,1],&quot;name&quot;:&quot;Empty geaar wing R&quot;},{&quot;children&quot;:[103],&quot;matrix&quot;:[0.099997565451030487,0,0.00069799848860948785,0,0,0.10000000149011612,0,0,-0.00069799848860948785,0,0.099997565451030487,0,2.2346301078796387,4.0862197875976562,1.9316500425338745,1],&quot;name&quot;:&quot;Composant10Solid1&quot;},{&quot;mesh&quot;:37,&quot;name&quot;:&quot;GeodeComposant10Solid1&quot;},{&quot;children&quot;:[105],&quot;matrix&quot;:[0.082707993950646166,0,0.056208433839443545,0,0,0.10000000149011612,0,0,-0.056208433839443545,0,0.082707993950646166,0,2.2346301078796387,4.0862197875976562,1.9316500425338745,1],&quot;name&quot;:&quot;Composant10Solid2&quot;},{&quot;mesh&quot;:38,&quot;name&quot;:&quot;GeodeComposant10Solid2&quot;},{&quot;children&quot;:[107],&quot;matrix&quot;:[0.10000000149011612,0,0,0,0,0.10000000149011612,0,0,0,0,0.10000000149011612,0,2.2346301078796387,4.0862197875976562,1.9316500425338745,1],&quot;name&quot;:&quot;Composant10Solid3&quot;},{&quot;mesh&quot;:39,&quot;name&quot;:&quot;GeodeComposant10Solid3&quot;},{&quot;children&quot;:[109],&quot;matrix&quot;:[0.10000000149011612,0,0,0,0,0.10000000149011612,0,0,0,0,0.10000000149011612,0,0.24589000642299652,4.0865201950073242,1.9309699535369873,1],&quot;name&quot;:&quot;Composant9Solid5&quot;},{&quot;mesh&quot;:40,&quot;name&quot;:&quot;GeodeComposant9Solid5&quot;},{&quot;children&quot;:[111],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,0.0021300000000000004,1.3011299999999999,3.4748299999999999,1],&quot;name&quot;:&quot;Composant17Solid4&quot;},{&quot;mesh&quot;:41,&quot;name&quot;:&quot;GeodeComposant17Solid4&quot;},{&quot;children&quot;:[113],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,0,-1,-5,1],&quot;name&quot;:&quot;Composant17Solid2&quot;},{&quot;mesh&quot;:42,&quot;name&quot;:&quot;GeodeComposant17Solid2&quot;},{&quot;children&quot;:[115],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,0,-1,-5,1],&quot;name&quot;:&quot;Composant17Solid3&quot;},{&quot;mesh&quot;:43,&quot;name&quot;:&quot;GeodeComposant17Solid3&quot;},{&quot;children&quot;:[117],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,0,-1,-5,1],&quot;name&quot;:&quot;Composant16Solid8&quot;},{&quot;mesh&quot;:44,&quot;name&quot;:&quot;GeodeComposant16Solid8&quot;},{&quot;children&quot;:[119],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,0.00032000000000000008,-1.4377399999999998,1.7522400000000002,1],&quot;name&quot;:&quot;Composant16Solid10&quot;},{&quot;mesh&quot;:45,&quot;name&quot;:&quot;GeodeComposant16Solid10&quot;},{&quot;children&quot;:[121],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,3.9307599999999998,3.1123599999999998,5.125799999999999,1],&quot;name&quot;:&quot;Composant16Solid7&quot;},{&quot;mesh&quot;:46,&quot;name&quot;:&quot;GeodeComposant16Solid7&quot;},{&quot;children&quot;:[123],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,-0.00052000000000000017,3.0333100000000002,1.9316399999999998,1],&quot;name&quot;:&quot;Composant16Solid12&quot;},{&quot;mesh&quot;:47,&quot;name&quot;:&quot;GeodeComposant16Solid12&quot;},{&quot;children&quot;:[125],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,0.0078900000000000029,4.0853000000000002,1.93045,1],&quot;name&quot;:&quot;Composant9Solid1&quot;},{&quot;mesh&quot;:48,&quot;name&quot;:&quot;GeodeComposant9Solid1&quot;},{&quot;children&quot;:[127],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,-3.9263300000000001,3.1003200000000004,5.1252399999999998,1],&quot;name&quot;:&quot;Composant16Solid6&quot;},{&quot;mesh&quot;:49,&quot;name&quot;:&quot;GeodeComposant16Solid6&quot;},{&quot;children&quot;:[129],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,0,-1,-5,1],&quot;name&quot;:&quot;tail_direction&quot;},{&quot;mesh&quot;:50,&quot;name&quot;:&quot;GeodeComposant16Solid2&quot;},{&quot;children&quot;:[131],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,0,-1,-5,1],&quot;name&quot;:&quot;Composant17Solid6&quot;},{&quot;mesh&quot;:51,&quot;name&quot;:&quot;GeodeComposant17Solid6&quot;},{&quot;children&quot;:[133],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,0,-1,-5,1],&quot;name&quot;:&quot;tail&quot;},{&quot;mesh&quot;:52,&quot;name&quot;:&quot;GeodeComposant16Solid1&quot;},{&quot;children&quot;:[135],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,0,-1,-5,1],&quot;name&quot;:&quot;Composant17Solid5&quot;},{&quot;mesh&quot;:53,&quot;name&quot;:&quot;GeodeComposant17Solid5&quot;},{&quot;children&quot;:[137],&quot;matrix&quot;:[0.10000000000000001,0,0,0,0,0.10000000000000001,0,0,0,-0,0.10000000000000001,0,0.0049200000000000016,4.1677399999999993,3.1652,1],&quot;name&quot;:&quot;structure&quot;},{&quot;mesh&quot;:54,&quot;name&quot;:&quot;GeodeComposant16Solid4&quot;}],&quot;samplers&quot;:[{&quot;magFilter&quot;:9729,&quot;minFilter&quot;:9987,&quot;wrapS&quot;:33648,&quot;wrapT&quot;:33648}],&quot;scene&quot;:0,&quot;scenes&quot;:[{&quot;name&quot;:&quot;OSG_Scene&quot;,&quot;nodes&quot;:[0]}],&quot;textures&quot;:[{&quot;sampler&quot;:0,&quot;source&quot;:0}]}</td>
+      </tr>
+</table>
+
+  <div class="BlobToolbar position-absolute js-file-line-actions dropdown js-menu-container js-select-menu d-none" aria-hidden="true">
+    <button class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1 dropdown-toggle js-menu-target" type="button" aria-expanded="false" aria-haspopup="true" aria-label="Inline file action toolbar" aria-controls="inline-file-actions">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+    </button>
+    <div class="dropdown-menu-content js-menu-content" id="inline-file-actions">
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2">
+        <li><clipboard-copy class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
+        <li><clipboard-copy class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</clipboard-copy></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" href="/flemos/GLTF-Free/blame/521fab2dacc2c3504d65f6f747e8ed238f9f7e8d/open/machine/scene.gltf">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" href="/flemos/GLTF-Free/issues/new">Open new issue</a></li>
+      </ul>
+    </div>
+  </div>
+
+  </div>
+
+  </div>
+
+  <button type="button" data-facebox="#jump-to-line" data-facebox-class="linejump" data-hotkey="l" class="d-none">Jump to Line</button>
+  <div id="jump-to-line" style="display:none">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form" action="" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <input class="form-control linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+      <button type="submit" class="btn">Go</button>
+</form>  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.26362s from unicorn-1956072597-q2d59">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" integrity="sha512-A0o32UigVgm0vxC5rUiim8r+tiSbIUPgybIJ76dL835MEyecNQOOkZ08YPRdpcPQWrF7k2apKd6gVtNmP0fbeg==" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-9892af3afe548c0749013c43e335ae31.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-GwXdJGfmE4Y7zwaQcLCiC/XjFA9h8sBysvwAmFyP4EEez2tWJhjSqJNRNQCEQZDaBCM8MbJ4J/zxtuE/2DG2WQ==" type="application/javascript" src="https://assets-cdn.github.com/assets/github-bcc5d59bbfe92b3354a32701be238fb9.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+
